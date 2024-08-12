@@ -37,26 +37,19 @@ export class HeaderComponent {
 		command: async () => { await this.Router.navigate(['/']); },
 		key: 'home'
 	}, {
-		name: this._translate.instant('GENERAL.pokedex'),
+		name: this._translate.instant('GENERAL.cards'),
 		isHovered: false,
 		isActive: false,
-		icon: 'fa-solid fa-earth-europe',
-		command: async () => { await this.Router.navigate(['/pokedex']); },
-		key: 'pokedex'
+		icon: 'fa-solid fa-scroll',
+		command: async () => { await this.Router.navigate(['/cards']); },
+		key: 'cards'
 	}, {
-		name: this._translate.instant('GENERAL.video-games'),
+		name: this._translate.instant('GENERAL.decks'),
 		isHovered: false,
 		isActive: false,
-		icon: 'fa-solid fa-gamepad',
-		command: async () => { await this.Router.navigate(['/video-games']); },
-		key: 'video-games'
-	}, {
-		name: this._translate.instant('GENERAL.tcg'),
-		isHovered: false,
-		isActive: false,
-		icon: 'fa-solid fa-dice',
-		command: async () => { await this.Router.navigate(['/tcg']); },
-		key: 'tcg'
+		icon: 'fa-solid fa-layer-group',
+		command: async () => { await this.Router.navigate(['/decks']); },
+		key: 'decks'
 	}, {
 		name: this._translate.instant(localStorage.getItem('token') ? 'USER.profile' : 'USER.signin'),
 		isHovered: false,
@@ -74,34 +67,6 @@ export class HeaderComponent {
 		{
 			code: "en",
 			icon: "fi fi-us"
-		},
-		{
-			code: "es",
-			icon: "fi fi-es"
-		},
-		{
-			code: "de",
-			icon: "fi fi-de"
-		},
-		{
-			code: "it",
-			icon: "fi fi-it"
-		},
-		{
-			code: "pt",
-			icon: "fi fi-pt"
-		},
-		{
-			code: "ja",
-			icon: "fi fi-jp"
-		},
-		{
-			code: "ko",
-			icon: "fi fi-kr"
-		},
-		{
-			code: "zh",
-			icon: "fi fi-cn"
 		}
 	];
 

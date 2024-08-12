@@ -3,7 +3,7 @@ interface Environment {
 	environmentName: string;
 	apiURL: string;
 	assetsURL: string;
-	tcgdexUrl: string;
+	cardsdexUrl: string;
 }
 
 export const environment: Environment = {
@@ -11,5 +11,5 @@ export const environment: Environment = {
 	environmentName: "",
 	apiURL: "",
 	assetsURL: "",
-	tcgdexUrl: "https://api.tcgdex.net/v2"
+	cardsdexUrl: "https://api.cardsdex.net/v2"
 };

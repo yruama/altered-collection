@@ -1,12 +1,12 @@
 import { RouterModule, Routes } from '@angular/router';
 
+import { CardsComponent } from './cards.component';
 import { NgModule } from '@angular/core';
-import { TcgComponent } from './tcg.component';
 
-const routes: Routes = [{ path: '', component: TcgComponent }];
+const routes: Routes = [{ path: '', component: CardsComponent }];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class TcgRoutingModule { }
+export class CardsRoutingModule { }

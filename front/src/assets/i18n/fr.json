@@ -1,14 +1,12 @@
 {
 	"GENERAL": {
 		"home": "Acceuil",
-		"pokedex": "Pokédex",
-		"tcg": "Cartes",
-		"video-games": "Jeux",
 		"user": "Profil",
 		"all": "Toutes",
+		"decks": "Decks",
+		"cards": "Cartes",
 		"load_more": "Charger plus de Pokémon",
 		"create": "Créer",
-		"generation": "Génération",
 		"on": "sur",
 		"LANG": {
 			"fr": "Français",
@@ -21,65 +19,6 @@
 			"zh": "简体中文",
 			"pt": "Português"
 		}
-	},
-	"POKEMON": {
-		"height": "Taille",
-		"talent": "Talent",
-		"weight": "Poids",
-		"category": "Catégorie",
-		"shape": "Forme",
-		"statistics": {
-			"hp": "PV",
-			"attack": "Attaque",
-			"defense": "Défense",
-			"speed": "Vitesse",
-			"special-attack": "Attaque sépcial",
-			"special-defense": "Défense spécial"
-		}
-	},
-	"POKELIST": {
-		"name": "Nom de la liste",
-		"génération": "Génération de la liste",
-		"image": "Image",
-		"create_list": "Créer une liste",
-		"owned": "Possédés",
-		"pokemon_name": "Nom",
-		"sprite": "Sprite",
-		"type": "Type",
-		"note": "Note",
-		"gen": "Gen"
-	},
-	"POKEDEX": {
-		"0gen": "Toutes les générations",
-		"1gen": "1ère Génération",
-		"2gen": "2ème Génération",
-		"3gen": "3ème Génération",
-		"4gen": "4ème Génération",
-		"5gen": "5ème Génération",
-		"6gen": "6ème Génération",
-		"7gen": "7ème Génération",
-		"8gen": "8ème Génération",
-		"9gen": "9ème Génération"
-	},
-	"TYPE": {
-		"grass": "Plante",
-		"poison": "Poison",
-		"fire": "Feu",
-		"steel": "Acier",
-		"bug": "Insecte",
-		"water": "Eau",
-		"dark": "Ténèbre",
-		"psychic": "Psy",
-		"dragon": "Dragon",
-		"fairy": "Fée",
-		"normal": "Normal",
-		"ground": "Sol",
-		"fighting": "Combat",
-		"flying": "Vol",
-		"electric": "Électrique",
-		"rock": "Roche",
-		"ice": "Glace",
-		"ghost": "Fantôme"
 	},
 	"USER": {
 		"firstname": "Prénom",

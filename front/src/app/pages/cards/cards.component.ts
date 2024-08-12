@@ -10,11 +10,11 @@ interface PokemonWithCards extends Pokemon {
 }
 
 @Component({
-  selector: 'app-tcg',
-  templateUrl: './tcg.component.html',
-  styleUrls: ['./tcg.component.scss']
+  selector: 'app-cards',
+  templateUrl: './cards.component.html',
+  styleUrls: ['./cards.component.scss']
 })
-export class TcgComponent implements OnInit {
+export class CardsComponent implements OnInit {
   sets: any = [];
   pagination = {
     offset: 0,
@@ -29,14 +29,13 @@ export class TcgComponent implements OnInit {
               private PokemonService: PokemonService) {}
 
   ngOnInit() {
-    this.CardsService.getSets().subscribe({
+    this.PokemonService.test().subscribe({
       next: (data: any) => {
-        console.log("Sets : ", data)
-        this.sets = data;
+        console.log("Data TEST : ", data)
       }, error: (err) => {
-        
+        console.log('err : ', err)
       }, complete: () => {
-        this.setPagination(0, 25, 25);
+        console.log('complete : ')
       }
     })
   }

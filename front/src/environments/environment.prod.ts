@@ -3,5 +3,5 @@ export const environment = {
 	environmentName: "production",
 	apiURL: "http://api.pokedata.fr/api/v1",
 	assetsURL: "http://api.pokedata.fr/assets",
-	tcgdexUrl: "https://api.tcgdex.net/v2"
+	cardsdexUrl: "https://api.cardsdex.net/v2"
 };

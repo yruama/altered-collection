@@ -12,10 +12,10 @@ export class CardsService {
 	constructor(private readonly _http: HttpClient) {}
 
 	getSets(): Observable<APIResult> {
-		return this._http.get<APIResult>(`${environment.tcgdexUrl}/fr/sets`);
+		return this._http.get<APIResult>(`${environment.cardsdexUrl}/fr/sets`);
 	}
 
 	getCardsByName(name: string): Observable<APIResult> {
-		return this._http.get<APIResult>(`${environment.tcgdexUrl}/fr/cards?name=${name}`);
+		return this._http.get<APIResult>(`${environment.cardsdexUrl}/fr/cards?name=${name}`);
 	}
 }
