@@ -18,7 +18,7 @@ export class CardsComponent implements OnInit {
   sets: any = [];
   pagination = {
     offset: 0,
-    limit: 0,
+    limit: 25,
     max: 0
   }
   pokemons: PokemonWithCards[] = [];
@@ -26,30 +26,20 @@ export class CardsComponent implements OnInit {
   env = environment;
 
   constructor(private CardsService: CardsService,
-              private PokemonService: PokemonService) {}
+              private _cardService: CardsService) {}
 
   ngOnInit() {
-    this.PokemonService.test().subscribe({
+   this.getCards();
+  }
+
+  getCards() {
+    this._cardService.getCards(this.pagination.offset, this.pagination.limit, this.pagination.max).subscribe({
       next: (data: any) => {
         console.log("Data TEST : ", data)
       }, error: (err) => {
         console.log('err : ', err)
       }, complete: () => {
         console.log('complete : ')
-      }
-    })
-  }
-
-  getPokemons() {
-    this.PokemonService.getPokemons(this.pagination.offset, this.pagination.limit, this.pagination.max).subscribe({
-      next: (data: any) => {
-       this.pokemons = data;
-
-       console.log("Pokemons : ", data)
-      }, error: (err) => {
-        
-      }, complete: () => {
-        this.getCards();
       }
     })
   }
@@ -61,21 +51,7 @@ export class CardsComponent implements OnInit {
       max: max
     }
 
-    this.getPokemons();
+    this.getCards();
   }
 
-  async getCards() {
-    for (const pokemon of this.pokemons) {
-      this.CardsService.getCardsByName(pokemon.NAME).subscribe({
-        next: (data: any) => {
-         pokemon.cards = data;
-         console.log("Pokemons : ", pokemon)
-        }, error: (err) => {
-          
-        }, complete: () => {
-        }
-      })
-    }
-    
-  }
 }

@@ -11,7 +11,7 @@ import fastifyStatic from "@fastify/static";
 import jwt from "@fastify/jwt";
 import path from "path";
 import { setGlobals } from "./config/global";
-import start from "./scripts/getDataFromPokeapi";
+import start from "./scripts/getAlteredData";
 
 dotenv.config();
 
@@ -52,6 +52,7 @@ app.register(fastifyStatic, {
 app.register(blippPlugin);
 app.register(import("./routes/user.routes") as any, { prefix: "api/v1/user" });
 app.register(import("./routes/test.routes") as any, { prefix: "api/v1/test" });
+app.register(import("./routes/cards.routes") as any, { prefix: "api/v1/cards" });
 app.register(cors, {
 	// put your options here
 });

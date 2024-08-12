@@ -1,14 +1,14 @@
-export interface cards {
-    UUID: string,
+export interface Cards {
+    UUID?: string,
     ID: string,
-    CARDS_LINK: string[],
+    IMAGE: string,
     SUB_TYPE: string[],
     TYPE: string,
     STATISTICS: Statistics,
     FACTION: number,
     NAME: string,
-    DESCRIPTION: string,
-    RARITY: number
+    RARITY: number,
+    EXTENSION: number
 }
 
 export interface Statistics {
