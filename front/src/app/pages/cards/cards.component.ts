@@ -1,5 +1,6 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 
+import { Cards } from 'src/app/types/cards.types';
 import { CardsService } from 'src/app/services/cards/cards.service';
 import { Pokemon } from 'src/app/types/pokemons.types';
 import { PokemonService } from 'src/app/services/pokemon/pokemon.service';
@@ -21,8 +22,8 @@ export class CardsComponent implements OnInit {
     limit: 25,
     max: 0
   }
-  pokemons: PokemonWithCards[] = [];
-  cards = [];
+  
+  cards: Cards[] = [];
   env = environment;
 
   constructor(private CardsService: CardsService,
@@ -36,6 +37,7 @@ export class CardsComponent implements OnInit {
     this._cardService.getCards(this.pagination.offset, this.pagination.limit, this.pagination.max).subscribe({
       next: (data: any) => {
         console.log("Data TEST : ", data)
+        this.cards = data;
       }, error: (err) => {
         console.log('err : ', err)
       }, complete: () => {

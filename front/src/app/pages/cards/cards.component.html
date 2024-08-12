@@ -1,1 +1,7 @@
 Liste cartes : <br>
+
+@for (card of cards; track card.UUID) {
+    <img [src]="card.IMAGE" alt="">
+} @empty {
+    <li>There are no items.</li>
+}

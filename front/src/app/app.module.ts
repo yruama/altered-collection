@@ -1,4 +1,4 @@
-import { HttpClient, HttpClientModule } from "@angular/common/http";
+import { HttpClient, provideHttpClient, withInterceptorsFromDi } from "@angular/common/http";
 import { JWT_OPTIONS, JwtHelperService } from "@auth0/angular-jwt";
 import { TranslateLoader, TranslateModule, TranslateStore } from "@ngx-translate/core";
 
@@ -33,44 +33,37 @@ export function HttpLoaderFactory(http: HttpClient) {
 	return new TranslateHttpLoader(http, './assets/i18n/', '.json');
 }
 
-@NgModule({
-	declarations: [
-		AppComponent,
-		LoaderComponent
-	],
-	imports: [
-		HttpClientModule,
-		AppRoutingModule,
-		HeaderModule,
-		TranslateModule.forRoot({
-			defaultLanguage: 'en',
-			loader: {
-				provide: TranslateLoader,
-				useFactory: HttpLoaderFactory,
-				deps: [HttpClient],
-			},
-		}),
-		BrowserModule,
-		CommonModule,
-		BrowserAnimationsModule,
-		ToastModule
-
-	],
-	providers: [
-		{ provide: JWT_OPTIONS, useValue: JWT_OPTIONS },
-		JwtHelperService,
-		AuthGuardService,
-		MessageService,
-		{
-			provide: APP_INITIALIZER,
-			useFactory: appInitializerFactory,
-			deps: [TranslateService],
-			multi: true,
-		},
-		LoaderService
-	],
-	bootstrap: [AppComponent],
-})
+@NgModule({ declarations: [
+        AppComponent,
+        LoaderComponent
+    ],
+    bootstrap: [AppComponent], imports: [AppRoutingModule,
+        HeaderModule,
+        TranslateModule.forRoot({
+            defaultLanguage: 'en',
+            loader: {
+                provide: TranslateLoader,
+                useFactory: HttpLoaderFactory,
+                deps: [HttpClient],
+            },
+        }),
+        BrowserModule,
+        CommonModule,
+        BrowserAnimationsModule,
+        ToastModule], providers: [
+        { provide: JWT_OPTIONS, useValue: JWT_OPTIONS },
+        JwtHelperService,
+        AuthGuardService,
+        MessageService,
+        {
+            provide: APP_INITIALIZER,
+            useFactory: appInitializerFactory,
+            deps: [TranslateService],
+            multi: true,
+        },
+        LoaderService,
+        provideHttpClient(withInterceptorsFromDi())
+    ] })
 
 
 

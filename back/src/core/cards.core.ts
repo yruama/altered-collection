@@ -28,7 +28,7 @@ export default class CoreCards {
 
     async getWithPagination(offset: number, limit: number) {
         try {
-			const cards = await knex.select("*").from("CARDS").limit(limit).offset(offset).orderBy("UUID", "asc");
+			const cards = await knex.select("*").from("CARDS").limit(limit).offset(offset).orderBy("ID", "asc");
 
 			if (cards.length <= 0) throw new InternalError(Error_card.READ.NOT_FOUND.single);
 			return parserObject(cards);
