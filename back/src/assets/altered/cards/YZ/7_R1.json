@@ -1,0 +1,24 @@
+{
+    "NAME": "Mage-Danseur du Kadigir",
+    "TYPE": "CHARACTER",
+    "SUB_TYPE": [
+        "Mage",
+        "Soldat"
+    ],
+    "ATTRIBUTES": {
+        "MOUTAIN": "1",
+        "FOREST": "1",
+        "OCEAN": "1",
+        "HAND_COST": "2",
+        "RESERVE_COST": "1"
+    },
+    "EFECTS": "Lorsque vous jouez un Sort — Je gagne 1 boost.  Au Crépuscule, si j'ai au moins 3 boosts — Piochez une carte.",
+    "ILLUSTRATOR": "",
+    "LORE": "« N'attendez pas que la magie vienne à vous, créez la vôtre ! »",
+    "FACTION": "Yzmir",
+    "RARITY": "Rare",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Au-delà des portes",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_07/JPG/fr_FR/64488f5f13307c8ae3b5b043be0a86e8.jpg",
+    "NUMBER": 7
+}

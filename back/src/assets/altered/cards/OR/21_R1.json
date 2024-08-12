@@ -1,0 +1,23 @@
+{
+    "NAME": "Robin Hood",
+    "TYPE": "CHARACTER",
+    "SUB_TYPE": [
+        "Bureaucrat"
+    ],
+    "ATTRIBUTES": {
+        "MOUTAIN": "2",
+        "FOREST": "3",
+        "OCEAN": "2",
+        "HAND_COST": "4",
+        "RESERVE_COST": "4"
+    },
+    "EFECTS": "Cards your opponents play cost {1} more.",
+    "ILLUSTRATOR": "",
+    "LORE": "Justice comes from a fair redistribution of wealth.",
+    "FACTION": "Ordis",
+    "RARITY": "Rare",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Beyond the Gates",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_21/JPG/en_US/fb3d78d2c43bd38288369457c032c4bd.jpg",
+    "NUMBER": 21
+}

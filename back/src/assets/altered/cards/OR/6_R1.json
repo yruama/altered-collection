@@ -1,0 +1,24 @@
+{
+    "NAME": "Cadets Ordis",
+    "TYPE": "CHARACTER",
+    "SUB_TYPE": [
+        "Apprenti",
+        "Soldat"
+    ],
+    "ATTRIBUTES": {
+        "MOUTAIN": "1",
+        "FOREST": "1",
+        "OCEAN": "1",
+        "HAND_COST": "2",
+        "RESERVE_COST": "2"
+    },
+    "EFECTS": "{J} Créez un jeton Soldat [1/1/1 Recrue Ordis] dans votre autre Expédition.",
+    "ILLUSTRATOR": "",
+    "LORE": "Ensemble ils apprennent, ensemble ils protégeront.",
+    "FACTION": "Ordis",
+    "RARITY": "Rare",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Au-delà des portes",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_06/JPG/fr_FR/b67d7f6907ff3d2bfca61db6cf430429.jpg",
+    "NUMBER": 6
+}

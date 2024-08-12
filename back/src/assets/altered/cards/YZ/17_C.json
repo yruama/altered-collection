@@ -1,0 +1,23 @@
+{
+    "NAME": "Le Kraken",
+    "TYPE": "CHARACTER",
+    "SUB_TYPE": [
+        "Léviathan"
+    ],
+    "ATTRIBUTES": {
+        "MOUTAIN": "0",
+        "FOREST": "0",
+        "OCEAN": "8",
+        "HAND_COST": "7",
+        "RESERVE_COST": "7"
+    },
+    "EFECTS": "[Gigantesque]. (Je suis considéré présent dans chacune de vos Expéditions.)  {J} Sacrifiez deux Personnages.  Toutes les régions sont {O} et perdent leurs autres types.",
+    "ILLUSTRATOR": "",
+    "LORE": "Le Kraken éventre la surface, projetant aux alentours des panaches d’eau qui retombent sur les troupes en un déluge de fin du monde.",
+    "FACTION": "Yzmir",
+    "RARITY": "Commun",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Au-delà des portes",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_17/JPG/fr_FR/b62b90e16dd1095b7412d3ed70c936b7.jpg",
+    "NUMBER": 17
+}

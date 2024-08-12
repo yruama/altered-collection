@@ -1,0 +1,20 @@
+{
+    "NAME": "Entraînement A Cappella",
+    "TYPE": "SPELL",
+    "SUB_TYPE": [
+        "Chant"
+    ],
+    "ATTRIBUTES": {
+        "HAND_COST": "1",
+        "RESERVE_COST": "1"
+    },
+    "EFECTS": "Un Personnage ciblé gagne [[Fugace]]. (S'il devait être envoyé en Réserve, défaussez-le à la place.)",
+    "ILLUSTRATOR": "",
+    "LORE": "« Merci d'être mon métronome ! »",
+    "FACTION": "Lyra",
+    "RARITY": "Commun",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Au-delà des portes",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_22/JPG/fr_FR/80cae7305a17f0e7a499303259dd1ba1.jpg",
+    "NUMBER": 22
+}

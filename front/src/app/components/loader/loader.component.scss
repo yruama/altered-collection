@@ -1,0 +1,22 @@
+.loader {
+	height: 100vh;
+	width: 100vw;
+	margin: auto;
+	background: #121212fa;
+	position: fixed;
+	display: flex;
+	z-index: 9;
+	top: 0;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	font-size: 8rem;
+
+	img {
+		margin-top: -10rem;
+	}
+
+	p {
+		margin-top: -5rem;
+	}
+}

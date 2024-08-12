@@ -1,0 +1,15 @@
+{
+    "NAME": "Afanas & Senka",
+    "TYPE": "HERO",
+    "SUB_TYPE": [],
+    "ATTRIBUTES": {},
+    "EFECTS": "Lorsque vous jouez un Sort — Un Personnage ciblé que vous contrôlez gagne 1 boost[]. (Faites cela après que le sort est résolu. Un boost est un compteur +1/+1/+1. Retirez-le lorsqu'il quitte la zone d'Expédition.)",
+    "ILLUSTRATOR": "",
+    "LORE": "Le monde se nourrit de magie, et s'étiole en son absence.",
+    "FACTION": "Yzmir",
+    "RARITY": "Commun",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Au-delà des portes",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_03/JPG/fr_FR/0f96a108839f4dd5be886fe30890ab9f.jpg",
+    "NUMBER": 3
+}

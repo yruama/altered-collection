@@ -1,0 +1,23 @@
+{
+    "NAME": "Foundry Armorer",
+    "TYPE": "CHARACTER",
+    "SUB_TYPE": [
+        "Engineer"
+    ],
+    "ATTRIBUTES": {
+        "MOUTAIN": "2",
+        "FOREST": "2",
+        "OCEAN": "2",
+        "HAND_COST": "3",
+        "RESERVE_COST": "3"
+    },
+    "EFECTS": "{R} Create a [Brassbug 2/2/2] Robot token in target Expedition.",
+    "ILLUSTRATOR": "",
+    "LORE": "No Brassbug would survive in the Tumult without armor.",
+    "FACTION": "Axiom",
+    "RARITY": "Common",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Beyond the Gates",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_16/JPG/en_US/52b09611562cb1ece4e551498e196419.jpg",
+    "NUMBER": 16
+}

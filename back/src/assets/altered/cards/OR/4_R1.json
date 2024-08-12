@@ -1,0 +1,23 @@
+{
+    "NAME": "Héraut de Papier",
+    "TYPE": "CHARACTER",
+    "SUB_TYPE": [
+        "Émissaire"
+    ],
+    "ATTRIBUTES": {
+        "MOUTAIN": "1",
+        "FOREST": "0",
+        "OCEAN": "2",
+        "HAND_COST": "1",
+        "RESERVE_COST": "1"
+    },
+    "EFECTS": "{D} : Créez un jeton Soldat [1/1/1 Recrue Ordis] dans une Expédition ciblée. (Défaussez-moi de la Réserve pour ça.)",
+    "ILLUSTRATOR": "",
+    "LORE": "Les paroles s'envolent, les écrits aussi.",
+    "FACTION": "Ordis",
+    "RARITY": "Rare",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Au-delà des portes",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_04/JPG/fr_FR/c4324a94ea1623a7f00f193fc3923fc8.jpg",
+    "NUMBER": 4
+}

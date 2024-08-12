@@ -1,0 +1,20 @@
+{
+    "NAME": "Abreuver",
+    "TYPE": "SPELL",
+    "SUB_TYPE": [
+        "Bénédiction"
+    ],
+    "ATTRIBUTES": {
+        "HAND_COST": "2",
+        "RESERVE_COST": "1"
+    },
+    "EFECTS": "Jusqu'à deux Personnages ciblés gagnent chacun 1 boost[]. (Un boost est un compteur +1/+1/+1. Retirez-le lorsqu'il quitte la zone d'Expédition.)",
+    "ILLUSTRATOR": "",
+    "LORE": "Après la pluie, le beau temps !",
+    "FACTION": "Muna",
+    "RARITY": "Commun",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Au-delà des portes",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_MU_27/JPG/fr_FR/e486418b3334a8cc383faf4e3f28738c.jpg",
+    "NUMBER": 27
+}

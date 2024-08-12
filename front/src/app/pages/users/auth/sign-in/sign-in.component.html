@@ -1,0 +1,62 @@
+<div class="flex">
+	<p-fieldset
+		legend="{{ 'USER.signup' | translate }}"
+		class="w-6 mr-2 signin blocs"
+	>
+		<div class="flex flex-column forms relative">
+			<div class="input">
+				<span class="p-float-label">
+					<input
+						pInputText
+						id="email"
+						[(ngModel)]="user.EMAIL"
+					/>
+					<label htmlFor="email">{{ "USER.email" | translate }}</label>
+				</span>
+			</div>
+
+			<div class="input">
+				<span class="p-float-label">
+					<p-password
+						[(ngModel)]="user.PASSWORD"
+						[feedback]="false"
+						[toggleMask]="true"
+					></p-password>
+					<label for="password">{{ "USER.password" | translate }}</label>
+				</span>
+			</div>
+		</div>
+
+		<p-button
+			[loading]="buttonLoading"
+			label="{{ 'USER.signin' | translate }}"
+			(click)="signIn()"
+			class="signin-button"
+		></p-button>
+
+		<img
+			src="assets/imgs/auth/signin.png"
+			alt=""
+		/>
+	</p-fieldset>
+
+	<p-fieldset
+		legend="{{ 'USER.no_account' | translate }}"
+		class="w-6 ml-2 text-justify blocs"
+	>
+		<p class="relative signup-text">
+			{{ "USER.you_should_join_us" | translate }}
+		</p>
+
+		<p-button
+			class="signup-button"
+			routerLink="/users/sign-up"
+			>{{ "USER.signup" | translate }}</p-button
+		>
+
+		<img
+			src="assets/imgs/auth/signup.png"
+			alt=""
+		/>
+	</p-fieldset>
+</div>

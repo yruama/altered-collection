@@ -1,0 +1,23 @@
+{
+    "NAME": "Ozma",
+    "TYPE": "CHARACTER",
+    "SUB_TYPE": [
+        "Noble"
+    ],
+    "ATTRIBUTES": {
+        "MOUTAIN": "2",
+        "FOREST": "1",
+        "OCEAN": "1",
+        "HAND_COST": "2",
+        "RESERVE_COST": "2"
+    },
+    "EFECTS": "{J} Si vous contrôlez au moins trois autres Personnages, piochez une carte. (Les cartes en Réserve ne sont pas contrôlées.)",
+    "ILLUSTRATOR": "",
+    "LORE": "« N'abandonne jamais. Personne ne sait de quoi demain sera fait. »",
+    "FACTION": "Ordis",
+    "RARITY": "Commun",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Au-delà des portes",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_11/JPG/fr_FR/b36fa5d09768d2d37f4001d4a044bf22.jpg",
+    "NUMBER": 11
+}

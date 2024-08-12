@@ -1,0 +1,24 @@
+{
+    "NAME": "Spindle Harvesters",
+    "TYPE": "CHARACTER",
+    "SUB_TYPE": [
+        "Animal",
+        "Plant"
+    ],
+    "ATTRIBUTES": {
+        "MOUTAIN": "0",
+        "FOREST": "1",
+        "OCEAN": "0",
+        "HAND_COST": "1",
+        "RESERVE_COST": "1"
+    },
+    "EFECTS": "{J} I gain [[Anchored]]. (During Rest, I don't go to Reserve and I lose Anchored.)",
+    "ILLUSTRATOR": "",
+    "LORE": "Some say the harvesters are the caretakers of the world-trees.",
+    "FACTION": "Yzmir",
+    "RARITY": "Rare",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Beyond the Gates",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_MU_06/JPG/en_US/018cd18475e235a87262b7c81d824eba.jpg",
+    "NUMBER": 6
+}

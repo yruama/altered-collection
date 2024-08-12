@@ -1,0 +1,15 @@
+{
+    "NAME": "Rin & Orchid",
+    "TYPE": "HERO",
+    "SUB_TYPE": [],
+    "ATTRIBUTES": {},
+    "EFECTS": "Lorsqu'une de vos Expéditions avance grâce à {V} — Piochez une carte, puis mettez une carte de votre main en Réserve.",
+    "ILLUSTRATOR": "",
+    "LORE": "Si on donne à la forêt, alors elle saura se montrer généreuse en retour.",
+    "FACTION": "Muna",
+    "RARITY": "Commun",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Au-delà des portes",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_MU_03/JPG/fr_FR/e341af9cf9cdb3b64296ad350a8893ae.jpg",
+    "NUMBER": 3
+}

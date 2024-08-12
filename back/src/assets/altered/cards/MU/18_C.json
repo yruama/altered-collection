@@ -1,0 +1,23 @@
+{
+    "NAME": "Parvati",
+    "TYPE": "CHARACTER",
+    "SUB_TYPE": [
+        "Divinité"
+    ],
+    "ATTRIBUTES": {
+        "MOUTAIN": "0",
+        "FOREST": "3",
+        "OCEAN": "3",
+        "HAND_COST": "4",
+        "RESERVE_COST": "2"
+    },
+    "EFECTS": "{H} Un Personnage ciblé gagne [[Ancré]]. (Au Repos, il ne va pas en Réserve et il perd Ancré.)",
+    "ILLUSTRATOR": "",
+    "LORE": "Ce n'est que dans l'harmonie que le monde peut prospérer.",
+    "FACTION": "Muna",
+    "RARITY": "Commun",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Au-delà des portes",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_MU_18/JPG/fr_FR/585170f97370f28ff869188fcadcd33e.jpg",
+    "NUMBER": 18
+}

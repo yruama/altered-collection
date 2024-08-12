@@ -1,0 +1,43 @@
+.title {
+	margin: auto;
+	margin-bottom: 1rem;
+	font-size: 2rem;
+}
+
+.input {
+	width: 100%;
+	margin: 1rem 0;
+}
+
+.signup-form {
+	position: relative;
+
+	.p-fielsset {
+		width: 350px;
+	}
+
+	.forms {
+		z-index: 9;
+	}
+
+	img {
+		bottom: 16px;
+		position: absolute;
+		z-index: 0;
+		max-width: 230px;
+		right: 24px;
+	}
+}
+
+.already-account {
+	width: 100%;
+	text-align: center;
+	margin: auto;
+	font-size: 14px;
+	color: var(--red-300);
+	font-style: italic;
+	margin-top: 12px;
+}
+.already-account:hover {
+	cursor: pointer;
+}

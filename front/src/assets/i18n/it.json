@@ -1,0 +1,85 @@
+{
+    "GENERAL": {
+      "home": "Home",
+      "pokedex": "Pokédex",
+      "about": "Informazioni",
+      "all": "Tutti",
+      "load_more": "Carica altri Pokémon",
+      "create": "Crea",
+      "generation": "Generazione",
+      "LANG": {
+        "fr": "Français",
+        "en": "English",
+        "es": "Español",
+        "de": "Deutsch",
+        "it": "Italiano",
+        "ja": "日本語",
+        "ko": "한국어",
+        "zh": "简体中文",            
+        "pt": "Português"
+      }
+    },
+    "POKELIST": {
+      "name": "Nome della lista",
+      "génération": "Generazione della lista",
+      "image": "Immagine",
+      "create_list": "Crea una lista",
+      "owned": "Posseduti",
+      "pokemon_name": "Nome",
+      "sprite": "Sprite",
+      "type": "Tipo",
+      "note": "Nota",
+      "gen": "Gen"
+    },
+    "POKEDEX": {
+      "0gen": "Tutte le generazioni",
+      "1gen": "1ª Generazione",
+      "2gen": "2ª Generazione",
+      "3gen": "3ª Generazione",
+      "4gen": "4ª Generazione",
+      "5gen": "5ª Generazione",
+      "6gen": "6ª Generazione",
+      "7gen": "7ª Generazione",
+      "8gen": "8ª Generazione",
+      "9gen": "9ª Generazione"
+    },
+    "TYPE": {
+      "grass": "Erba",
+      "poison": "Veleno",
+      "fire": "Fuoco",
+      "steel": "Acciaio",
+      "bug": "Insetto",
+      "water": "Acqua",
+      "dark": "Buio",
+      "psychic": "Psico",
+      "dragon": "Drago",
+      "fairy": "Folletto",
+      "normal": "Normale",
+      "ground": "Terra",
+      "fighting": "Lotta",
+      "flying": "Volante",
+      "electric": "Elettro",
+      "rock": "Roccia",
+      "ice": "Ghiaccio",
+      "ghost": "Spettro"
+    },
+    "USER": {
+      "firstname": "Nome",
+      "lastname": "Cognome",
+      "email": "Email",
+      "username": "Nome utente",
+      "password": "Password",
+      "signup": "Registrati",
+      "signin": "Accedi",
+      "signoff": "Esci",
+      "profile": "Profilo",
+      "my_pokedex": "La mia Pokédex"
+    },
+    "TOAST": {
+      "connexion_success": "Connessione riuscita",
+      "connexion_error": "Errore di connessione",
+      "register_success": "Registrazione riuscita",
+      "register_error": "Errore di registrazione"
+    }
+  }
+  

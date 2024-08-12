@@ -1,0 +1,88 @@
+<div *ngIf="!isLoading" class="container">
+
+    <div class="heaedr">
+        <div class="title"> {{ pokemon.NAME }} </div>
+    </div>
+
+    <div class="content">
+
+        <div class="toto">
+            <div class="image">
+                <img [src]="env.assetsURL + '/artwork/' + pokemon.POKEMON_ID + '.png'" alt="">
+            </div>
+    
+            <div class="data">
+                <div>
+                    <div class="description">
+                        {{ pokemon.DESCRIPTION }}
+                    </div>
+        
+                    <div class="informations">
+                        
+                        <div class="type">
+
+                            <span *ngFor="let type of pokemon.TYPE" [pTooltip]="'TYPE.' + type.name  | translate"  tooltipPosition="top">
+                                <img [src]="env.assetsURL + '/types/' + type.id + '.png'" alt="">
+                            </span>
+
+                        
+                        </div>
+
+                        <div class="statitics">
+
+                            <div class="statistic">{{ 'POKEMON.height' | translate }} : {{ pokemon.INFORMATIONS.height }} </div>
+                            <div class="statistic">{{ 'POKEMON.category' | translate }} : {{ pokemon.CATEGORY }} </div>
+                            <div class="statistic">{{ 'POKEMON.weight' | translate }} : {{ pokemon.INFORMATIONS.weight }}</div>
+                            <div class="statistic">{{ 'POKEMON.talent' | translate }} : 
+                            
+                                <div class="talent">
+
+                                    <div class="display">
+                                        <div *ngFor="let talent of pokemon.TALENT">
+                                            <span *ngIf="!talent.hidden"> {{ talent.name }} </span>
+                                        </div>
+                                    </div>
+                                    <div class="hide">
+                                        <div *ngFor="let talent of pokemon.TALENT">
+                                            <span *ngIf="talent.hidden"> {{ talent.name }} </span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                    
+                            </div>
+
+                            <div class="data">
+                                <span *ngFor="let s of pokemon.INFORMATIONS.statistics">
+                                    {{ 'POKEMON.statistics.' + s.name  | translate }} {{ s.value }}
+                                </span>
+                            </div>
+
+                        </div>
+                       
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+       
+
+        <div class="evolve">
+            <div class="evolve__image" *ngFor="let pokemon of pokemon.EVOLUTION">
+                <img [src]="env.assetsURL + '/artwork/' + pokemon.POKEMON_ID + '.png'" alt="">
+            </div>
+        </div>
+
+        <div class="cards">
+
+            <div *ngFor="let card of cards">
+                <img [src]="card.image + '/low.png'" alt="">
+            </div>
+
+        </div>
+
+    </div>
+
+    
+
+</div>

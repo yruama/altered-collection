@@ -1,0 +1,23 @@
+{
+    "NAME": "Alice",
+    "TYPE": "CHARACTER",
+    "SUB_TYPE": [
+        "Citoyen"
+    ],
+    "ATTRIBUTES": {
+        "MOUTAIN": "3",
+        "FOREST": "3",
+        "OCEAN": "4",
+        "HAND_COST": "3",
+        "RESERVE_COST": "3"
+    },
+    "EFECTS": "{D} : [Après vous]. (Défaussez-moi de la Réserve pour ça.)",
+    "ILLUSTRATOR": "",
+    "LORE": "« Je parie que vous n’avez jamais parlé au Temps. — Cela se peut bien, répliqua prudemment Alice, mais je l’ai souvent mal employé. »",
+    "FACTION": "Yzmir",
+    "RARITY": "Rare",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Au-delà des portes",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_13/JPG/fr_FR/5d92c3948e91997ceace67bf7f820857.jpg",
+    "NUMBER": 13
+}

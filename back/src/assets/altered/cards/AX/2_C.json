@@ -1,0 +1,15 @@
+{
+    "NAME": "Treyst & Rossum",
+    "TYPE": "HERO",
+    "SUB_TYPE": [],
+    "ATTRIBUTES": {},
+    "EFECTS": "Lorsqu'une carte quitte votre Réserve pendant l'Après-midi, si j'ai moins de cinq compteurs Ferraille — Je gagne un compteur Ferraille.  Si j'ai au moins cinq compteurs Ferraille, je gagne « {T} : Piochez une carte, puis mettez une carte de votre main en Réserve. »",
+    "ILLUSTRATOR": "",
+    "LORE": "Tout système énergétique est une machinerie subtile, à optimiser pour en tirer le meilleur rendement.",
+    "FACTION": "Axiom",
+    "RARITY": "Commun",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Au-delà des portes",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_02/JPG/fr_FR/7e5b29374278b12806fac1b987fc64b8.jpg",
+    "NUMBER": 2
+}

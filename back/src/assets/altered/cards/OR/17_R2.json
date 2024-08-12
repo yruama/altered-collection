@@ -1,0 +1,23 @@
+{
+    "NAME": "Jeanne d'Arc",
+    "TYPE": "CHARACTER",
+    "SUB_TYPE": [
+        "Soldat"
+    ],
+    "ATTRIBUTES": {
+        "MOUTAIN": "3",
+        "FOREST": "3",
+        "OCEAN": "3",
+        "HAND_COST": "5",
+        "RESERVE_COST": "5"
+    },
+    "EFECTS": "Lorsque je quitte la zone d'Expédition — Créez un jeton Robot [2/2/2 Scarabot] dans chacune de vos Expéditions.",
+    "ILLUSTRATOR": "",
+    "LORE": "Elle continuera d'inspirer les foules bien après son départ.",
+    "FACTION": "Axiom",
+    "RARITY": "Rare",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Au-delà des portes",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_17/JPG/fr_FR/781fd303a4e9bb5081a2998651ca4c31.jpg",
+    "NUMBER": 17
+}

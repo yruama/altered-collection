@@ -1,0 +1,61 @@
+<div style="width: 50%; margin: auto">
+	<p-fieldset
+		legend="{{ 'USER.signup' | translate }}"
+		class="signup-form"
+	>
+		<div class="flex flex-column forms relative">
+			<div class="input">
+				<span class="p-float-label">
+					<input
+						style="width: 80%"
+						pInputText
+						id="email"
+						[(ngModel)]="user.EMAIL"
+					/>
+					<label htmlFor="email">{{ "USER.email" | translate }}</label>
+				</span>
+			</div>
+
+			<div class="input">
+				<span class="p-float-label">
+					<input
+						style="width: 55%"
+						pInputText
+						id="username"
+						[(ngModel)]="user.USERNAME"
+					/>
+					<label htmlFor="username">{{ "USER.username" | translate }}</label>
+				</span>
+			</div>
+
+			<div class="input">
+				<span class="p-float-label">
+					<p-password
+						[(ngModel)]="user.PASSWORD"
+						[feedback]="false"
+						[toggleMask]="true"
+					></p-password>
+					<label for="password">{{ "USER.password" | translate }}</label>
+				</span>
+			</div>
+
+			<p-button
+				class="mt-3"
+				[loading]="buttonLoading"
+				label="{{ 'USER.signup' | translate }}"
+				(click)="signUp()"
+			></p-button>
+		</div>
+		<img
+			src="assets/imgs/auth/signup-form.png"
+			alt=""
+		/>
+	</p-fieldset>
+
+	<p
+		class="already-account"
+		routerLink="/users/sign-in"
+	>
+		{{ "USER.already_have_account" | translate }}
+	</p>
+</div>

@@ -1,0 +1,74 @@
+{
+    "CREATE": {
+        "CANNOT_ADD": {
+            "message": "Cannot add pokemon",
+            "code": 400,
+            "description": "You're not able to add a pokemon at the moment"
+        },
+        "ALREADY_EXISTS": {
+            "message": "Pokemon already exists",
+            "code": 500,
+            "description": "The pokemon you are trying to add already exists"
+        },
+        "PERMISSION_DENIED": {
+            "message": "Permission denied",
+            "code": 403,
+            "description": "You do not have permission to add a pokemon"
+        }
+    },
+    "READ": {
+        "NOT_FOUND": {
+            "single": {
+                "message": "Pokemon not found",
+                "code": 404,
+                "description": "The pokemon you are looking for does not exist"
+            },
+            "multiple": {
+                "message": "Pokemons not found",
+                "code": 404,
+                "description": "The pokemons you are looking for do not exist"
+            }
+        },
+        "NOT_REACHABLE": {
+            "message": "Pokemon not reachable",
+            "code": 500,
+            "description": "The pokemons are not available at the moment"
+        },
+        "PERMISSION_DENIED": {
+            "message": "Permission denied",
+            "code": 403,
+            "description": "You do not have permission to access pokemons"
+        }
+    },
+    "UPDATE": {
+        "CANNOT_UPDATE": {
+            "message": "Cannot update pokemon",
+            "code": 400,
+            "description": "You're not able to update a pokemon at the moment"
+        },
+        "PERMISSION_DENIED": {
+            "message": "Permission denied",
+            "code": 403,
+            "description": "You do not have permission to update a pokemon"
+        }
+    },
+    "DELETE": {
+        "CANNOT_DELETE": {
+            "message": "Cannot delete pokemon",
+            "code": 400,
+            "description": "The pokemon you are trying to delete cannot be deleted"
+        },
+        "PERMISSION_DENIED": {
+            "message": "Permission denied",
+            "code": 403,
+            "description": "You do not have permission to delete a pokemon"
+        }
+    },
+    "MISC": {
+        "WENT_WRONG": {
+            "message": "Something went wrong",
+            "code": 500,
+            "description": "Something went wrong while processing your request"
+        }
+    }
+}

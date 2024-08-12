@@ -1,0 +1,20 @@
+{
+    "NAME": "Happé",
+    "TYPE": "SPELL",
+    "SUB_TYPE": [
+        "Manœuvre"
+    ],
+    "ATTRIBUTES": {
+        "HAND_COST": "1",
+        "RESERVE_COST": "2"
+    },
+    "EFECTS": "Un Personnage ciblé change d'Expédition. (Il quitte son Expédition et rejoint l'autre Expédition de son contrôleur.)",
+    "ILLUSTRATOR": "",
+    "LORE": "C'est ce qu'on appelle se faire mettre le grappin dessus.",
+    "FACTION": "Axiom",
+    "RARITY": "Commun",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Au-delà des portes",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_20/JPG/fr_FR/7d6ce49c8ff157a8440df658f3568e72.jpg",
+    "NUMBER": 20
+}

@@ -1,0 +1,23 @@
+{
+    "NAME": "Charge!",
+    "TYPE": "SPELL",
+    "SUB_TYPE": [
+        "Maneuver"
+    ],
+    "ATTRIBUTES": {
+        "MOUTAIN": "",
+        "FOREST": "",
+        "OCEAN": "",
+        "HAND_COST": "2",
+        "RESERVE_COST": "3"
+    },
+    "EFECTS": "Characters you control gain 1 boost.",
+    "ILLUSTRATOR": "",
+    "LORE": "Facing terrible odds and an unfathomably huge Leviathan, the Ordis legion charged nonetheless.",
+    "FACTION": "Ordis",
+    "RARITY": "Rare",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Beyond the Gates",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_23/JPG/en_US/ad21f5750f19baa4bb05e2fc41d7a6cb.jpg",
+    "NUMBER": 23
+}

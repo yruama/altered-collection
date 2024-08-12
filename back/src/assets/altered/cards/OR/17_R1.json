@@ -1,0 +1,23 @@
+{
+    "NAME": "Jeanne d'Arc",
+    "TYPE": "CHARACTER",
+    "SUB_TYPE": [
+        "Soldat"
+    ],
+    "ATTRIBUTES": {
+        "MOUTAIN": "2",
+        "FOREST": "2",
+        "OCEAN": "2",
+        "HAND_COST": "5",
+        "RESERVE_COST": "5"
+    },
+    "EFECTS": "Lorsque je quitte la zone d'Expédition — Créez deux jetons Soldat [1/1/1 Recrue Ordis] dans chacune de vos Expéditions.",
+    "ILLUSTRATOR": "",
+    "LORE": "Elle continuera d'inspirer les foules bien après son départ.",
+    "FACTION": "Ordis",
+    "RARITY": "Rare",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Au-delà des portes",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_17/JPG/fr_FR/6af6140561c36495962faad8584996bc.jpg",
+    "NUMBER": 17
+}

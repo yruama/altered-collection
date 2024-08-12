@@ -1,0 +1,23 @@
+{
+    "NAME": "Gardienne Ordis",
+    "TYPE": "CHARACTER",
+    "SUB_TYPE": [
+        "Soldat"
+    ],
+    "ATTRIBUTES": {
+        "MOUTAIN": "3",
+        "FOREST": "1",
+        "OCEAN": "1",
+        "HAND_COST": "3",
+        "RESERVE_COST": "3"
+    },
+    "EFECTS": "{J}Un Personnage ciblé dans votre autre Expédition gagne 2 boosts..",
+    "ILLUSTRATOR": "",
+    "LORE": "La Sentinelle de l’Aegis ouvrit la porte et fit un pas de côté pour la laisser passer, la saluant d’un hochement de tête.",
+    "FACTION": "Muna",
+    "RARITY": "Rare",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Au-delà des portes",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_13/JPG/fr_FR/0b8f46ef5a150470b8334b1c05c7951e.jpg",
+    "NUMBER": 13
+}

@@ -1,0 +1,85 @@
+{
+    "GENERAL": {
+      "home": "Startseite",
+      "pokedex": "Pokédex",
+      "about": "Über",
+      "all": "Alle",
+      "load_more": "Mehr Pokémon laden",
+      "create": "Erstellen",
+      "generation": "Generation",
+      "LANG": {
+        "fr": "Français",
+        "en": "English",
+        "es": "Español",
+        "de": "Deutsch",
+        "it": "Italiano",
+        "ja": "日本語",
+        "ko": "한국어",
+        "zh": "简体中文",            
+        "pt": "Português"
+      }
+    },
+    "POKELIST": {
+      "name": "Listenname",
+      "génération": "Listen-Generation",
+      "image": "Bild",
+      "create_list": "Liste erstellen",
+      "owned": "Im Besitz",
+      "pokemon_name": "Name",
+      "sprite": "Sprite",
+      "type": "Typ",
+      "note": "Notiz",
+      "gen": "Gen"
+    },
+    "POKEDEX": {
+      "0gen": "Alle Generationen",
+      "1gen": "1. Generation",
+      "2gen": "2. Generation",
+      "3gen": "3. Generation",
+      "4gen": "4. Generation",
+      "5gen": "5. Generation",
+      "6gen": "6. Generation",
+      "7gen": "7. Generation",
+      "8gen": "8. Generation",
+      "9gen": "9. Generation"
+    },
+    "TYPE": {
+      "grass": "Pflanze",
+      "poison": "Gift",
+      "fire": "Feuer",
+      "steel": "Stahl",
+      "bug": "Käfer",
+      "water": "Wasser",
+      "dark": "Unlicht",
+      "psychic": "Psycho",
+      "dragon": "Drache",
+      "fairy": "Fee",
+      "normal": "Normal",
+      "ground": "Boden",
+      "fighting": "Kampf",
+      "flying": "Flug",
+      "electric": "Elektro",
+      "rock": "Gestein",
+      "ice": "Eis",
+      "ghost": "Geist"
+    },
+    "USER": {
+      "firstname": "Vorname",
+      "lastname": "Nachname",
+      "email": "E-Mail",
+      "username": "Benutzername",
+      "password": "Passwort",
+      "signup": "Registrieren",
+      "signin": "Anmelden",
+      "signoff": "Abmelden",
+      "profile": "Profil",
+      "my_pokedex": "Mein Pokédex"
+    },
+    "TOAST": {
+      "connexion_success": "Verbindung erfolgreich",
+      "connexion_error": "Verbindung fehlgeschlagen",
+      "register_success": "Registrierung erfolgreich",
+      "register_error": "Registrierung fehlgeschlagen"
+    }
+}
+  

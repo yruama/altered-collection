@@ -1,0 +1,23 @@
+{
+    "NAME": "Récupérateur Axiom",
+    "TYPE": "CHARACTER",
+    "SUB_TYPE": [
+        "Ingénieur"
+    ],
+    "ATTRIBUTES": {
+        "MOUTAIN": "1",
+        "FOREST": "1",
+        "OCEAN": "0",
+        "HAND_COST": "1",
+        "RESERVE_COST": "1"
+    },
+    "EFECTS": "{R} [Ravitaillez]. (Mettez la première carte de votre deck en Réserve.)",
+    "ILLUSTRATOR": "",
+    "LORE": "Les ressources limitées ont toujours poussé les Axiom à recycler ce qui pouvait l'être.",
+    "FACTION": "Axiom",
+    "RARITY": "Rare",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Au-delà des portes",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_08/JPG/fr_FR/069c88f1b7eae308649b6af888918ede.jpg",
+    "NUMBER": 8
+}

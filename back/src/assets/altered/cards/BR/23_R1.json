@@ -1,0 +1,23 @@
+{
+    "NAME": "Tomoe Gozen",
+    "TYPE": "CHARACTER",
+    "SUB_TYPE": [
+        "Soldat"
+    ],
+    "ATTRIBUTES": {
+        "MOUTAIN": "5",
+        "FOREST": "2",
+        "OCEAN": "5",
+        "HAND_COST": "3",
+        "RESERVE_COST": "3"
+    },
+    "EFECTS": "Je ne peux pas être jouée si vous avez moins de six Orbes de Mana.",
+    "ILLUSTRATOR": "",
+    "LORE": "Seuls les Altérateurs et Altératrices les plus doués peuvent donner vie aux légendes gravées dans la mémoire de l'humanité.",
+    "FACTION": "Bravos",
+    "RARITY": "Rare",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Au-delà des portes",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_23/JPG/fr_FR/346a5a1f53ce17269a7afc96b7ee21a5.jpg",
+    "NUMBER": 23
+}

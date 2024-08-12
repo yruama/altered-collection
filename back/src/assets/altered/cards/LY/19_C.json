@@ -1,0 +1,23 @@
+{
+    "NAME": "Amahle, Asgarthan Outcast",
+    "TYPE": "CHARACTER",
+    "SUB_TYPE": [
+        "Scholar"
+    ],
+    "ATTRIBUTES": {
+        "MOUTAIN": "5",
+        "FOREST": "5",
+        "OCEAN": "5",
+        "HAND_COST": "5",
+        "RESERVE_COST": "5"
+    },
+    "EFECTS": "{J} You may discard a card from your Reserve to draw a card.",
+    "ILLUSTRATOR": "",
+    "LORE": "The old world is dying, and the new world struggles to be born: now is the time of monsters.",
+    "FACTION": "Lyra",
+    "RARITY": "Common",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Beyond the Gates",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_19/JPG/en_US/fd31278702ff7b52bcef51a238252ee7.jpg",
+    "NUMBER": 19
+}

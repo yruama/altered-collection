@@ -1,0 +1,24 @@
+{
+    "NAME": "Dracaena",
+    "TYPE": "CHARACTER",
+    "SUB_TYPE": [
+        "Dragon",
+        "Plante"
+    ],
+    "ATTRIBUTES": {
+        "MOUTAIN": "2",
+        "FOREST": "0",
+        "OCEAN": "2",
+        "HAND_COST": "3",
+        "RESERVE_COST": "3"
+    },
+    "EFECTS": "{J} Je gagne [[Ancré]]. (Au Repos, je ne vais pas en Réserve et je perds Ancré.)  À Midi — Je gagne 1 boost.",
+    "ILLUSTRATOR": "",
+    "LORE": "On peut parfois les voir somnoler non loin d'un étang, se gorgeant d'eau et de lumière...",
+    "FACTION": "Muna",
+    "RARITY": "Commun",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Au-delà des portes",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_MU_15/JPG/fr_FR/181be5dbfb1c882337072756f475817b.jpg",
+    "NUMBER": 15
+}

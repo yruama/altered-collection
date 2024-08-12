@@ -1,0 +1,24 @@
+{
+    "NAME": "Ogun",
+    "TYPE": "CHARACTER",
+    "SUB_TYPE": [
+        "Ingénieur",
+        "Divinité"
+    ],
+    "ATTRIBUTES": {
+        "MOUTAIN": "1",
+        "FOREST": "2",
+        "OCEAN": "1",
+        "HAND_COST": "2",
+        "RESERVE_COST": "2"
+    },
+    "EFECTS": "{J} Les Plantes que vous contrôlez gagnent 1 boost.",
+    "ILLUSTRATOR": "",
+    "LORE": "À chaque coup de marteau, Ogun forge le destin des Axiom.",
+    "FACTION": "Muna",
+    "RARITY": "Rare",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Au-delà des portes",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_06/JPG/fr_FR/7bfa82364d8b855ae8ed1735e9260499.jpg",
+    "NUMBER": 6
+}

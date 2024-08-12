@@ -1,0 +1,22 @@
+{
+    "NAME": "Pionnière Bravos",
+    "TYPE": "CHARACTER",
+    "SUB_TYPE": [
+        "Aventurier"
+    ],
+    "ATTRIBUTES": {
+        "MOUTAIN": "3",
+        "FOREST": "0",
+        "OCEAN": "3",
+        "HAND_COST": "2",
+        "RESERVE_COST": "2"
+    },
+    "ILLUSTRATOR": "",
+    "LORE": "« Reste sur le chemin, qu'ils disaient. Je trace mon propre chemin ! »",
+    "FACTION": "Lyra",
+    "RARITY": "Rare",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Au-delà des portes",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_08/JPG/fr_FR/aa663f45093fc29d075077a07ef9bf36.jpg",
+    "NUMBER": 8
+}

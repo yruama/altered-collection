@@ -1,0 +1,20 @@
+{
+    "NAME": "Apothéose de l'Esprit",
+    "TYPE": "SPELL",
+    "SUB_TYPE": [
+        "Conjuration"
+    ],
+    "ATTRIBUTES": {
+        "HAND_COST": "9",
+        "RESERVE_COST": "9"
+    },
+    "EFECTS": "[[Fugace]]. (Envoyez-moi à la Défausse plutôt qu'en Réserve une fois mon effet résolu.)  Révélez les quatre premières cartes de votre deck. Choisissez jusqu'à deux Personnages parmi ces cartes et mettez-les dans vos Expéditions. Ils gagnent [[Fugace]]. Défaussez les autres cartes. (N'activez pas de déclencheurs {h}.)",
+    "ILLUSTRATOR": "",
+    "LORE": "Celui qui regarde à l'extérieur rêve, celui qui regarde à l'intérieur s'éveille.",
+    "FACTION": "Lyra",
+    "RARITY": "Commun",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Au-delà des portes",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_27/JPG/fr_FR/4826c7a5ec6387dfb79bd994979d3372.jpg",
+    "NUMBER": 27
+}

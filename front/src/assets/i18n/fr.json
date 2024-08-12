@@ -1,0 +1,105 @@
+{
+	"GENERAL": {
+		"home": "Acceuil",
+		"pokedex": "Pokédex",
+		"tcg": "Cartes",
+		"video-games": "Jeux",
+		"user": "Profil",
+		"all": "Toutes",
+		"load_more": "Charger plus de Pokémon",
+		"create": "Créer",
+		"generation": "Génération",
+		"on": "sur",
+		"LANG": {
+			"fr": "Français",
+			"en": "English",
+			"es": "Español",
+			"de": "Deutsch",
+			"it": "Italiano",
+			"ja": "日本語",
+			"ko": "한국어",
+			"zh": "简体中文",
+			"pt": "Português"
+		}
+	},
+	"POKEMON": {
+		"height": "Taille",
+		"talent": "Talent",
+		"weight": "Poids",
+		"category": "Catégorie",
+		"shape": "Forme",
+		"statistics": {
+			"hp": "PV",
+			"attack": "Attaque",
+			"defense": "Défense",
+			"speed": "Vitesse",
+			"special-attack": "Attaque sépcial",
+			"special-defense": "Défense spécial"
+		}
+	},
+	"POKELIST": {
+		"name": "Nom de la liste",
+		"génération": "Génération de la liste",
+		"image": "Image",
+		"create_list": "Créer une liste",
+		"owned": "Possédés",
+		"pokemon_name": "Nom",
+		"sprite": "Sprite",
+		"type": "Type",
+		"note": "Note",
+		"gen": "Gen"
+	},
+	"POKEDEX": {
+		"0gen": "Toutes les générations",
+		"1gen": "1ère Génération",
+		"2gen": "2ème Génération",
+		"3gen": "3ème Génération",
+		"4gen": "4ème Génération",
+		"5gen": "5ème Génération",
+		"6gen": "6ème Génération",
+		"7gen": "7ème Génération",
+		"8gen": "8ème Génération",
+		"9gen": "9ème Génération"
+	},
+	"TYPE": {
+		"grass": "Plante",
+		"poison": "Poison",
+		"fire": "Feu",
+		"steel": "Acier",
+		"bug": "Insecte",
+		"water": "Eau",
+		"dark": "Ténèbre",
+		"psychic": "Psy",
+		"dragon": "Dragon",
+		"fairy": "Fée",
+		"normal": "Normal",
+		"ground": "Sol",
+		"fighting": "Combat",
+		"flying": "Vol",
+		"electric": "Électrique",
+		"rock": "Roche",
+		"ice": "Glace",
+		"ghost": "Fantôme"
+	},
+	"USER": {
+		"firstname": "Prénom",
+		"lastname": "Nom",
+		"email": "Email",
+		"username": "Username",
+		"password": "Mot de passe",
+		"signup": "Inscription",
+		"signin": "Connexion",
+		"signoff": "Déconnexion",
+		"profile": "Profil",
+		"my_pokedex": "Mon pokédex",
+		"no_account": "Pas de compte ?",
+		"you_should_join_us": "Explorez l'univers des Pokémon comme jamais auparavant en vous inscrivant sur pokedata.fr ! Profitez d'un accès privilégié aux données les plus complètes sur chaque créature, concevez vos listes de Pokédex sur mesure et échangez vos découvertes avec d'autres passionnés. Ne manquez aucune occasion de perfectionner votre équipe, de dénicher des raretés et de devenir le dresseur légendaire que vous rêvez d'être ! Rejoignez-nous pour une aventure Pokémon épique et palpitante !",
+		"already_have_account": "Vous avez déjà un compte ? Connectez-vous !"
+	},
+	"TOAST": {
+		"connexion_success": "Connexion réussi",
+		"connexion_error": "Connexion impossible",
+		"register_success": "Inscription réussi",
+		"register_error": "Inscription impossible"
+	}
+}

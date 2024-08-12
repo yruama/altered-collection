@@ -1,0 +1,23 @@
+{
+    "NAME": "Kraken's Wrath",
+    "TYPE": "SPELL",
+    "SUB_TYPE": [
+        "Disruption"
+    ],
+    "ATTRIBUTES": {
+        "MOUTAIN": "",
+        "FOREST": "",
+        "OCEAN": "",
+        "HAND_COST": "5",
+        "RESERVE_COST": "5"
+    },
+    "EFECTS": "[[Fleeting]]. (Send me to Discard instead of Reserve after my effect resolves.)  Send to Reserve up to four target Characters with a total Hand Cost {6} or less.",
+    "ILLUSTRATOR": "",
+    "LORE": "The roaring waves crashed down over the charging armies, and countless soldiers vanished beneath the raging waters.",
+    "FACTION": "Yzmir",
+    "RARITY": "Rare",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Beyond the Gates",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_26/JPG/en_US/02c13df853a850acb03743e70b2e8824.jpg",
+    "NUMBER": 26
+}

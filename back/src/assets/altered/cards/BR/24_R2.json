@@ -1,0 +1,23 @@
+{
+    "NAME": "Kaibara, Léviathan Asgarthi",
+    "TYPE": "CHARACTER",
+    "SUB_TYPE": [
+        "Léviathan"
+    ],
+    "ATTRIBUTES": {
+        "MOUTAIN": "6",
+        "FOREST": "6",
+        "OCEAN": "6",
+        "HAND_COST": "8",
+        "RESERVE_COST": "8"
+    },
+    "EFECTS": "[Gigantesque]. (Je suis considéré présent dans chacune de vos Expéditions.)  [Coriace X], où X est le nombre de régions entre votre Héros et votre Compagnon. (S'ils sont adjacents, X est égal à 0. Les Sorts et capacités d'un adversaire qui me ciblent coûtent {X} de plus.)",
+    "ILLUSTRATOR": "",
+    "LORE": "Depuis de nombreux siècles, Kaibara veille sur Asgartha.",
+    "FACTION": "Lyra",
+    "RARITY": "Rare",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Au-delà des portes",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_24/JPG/fr_FR/74b4899760f5bec97cf56d19f5f81e1c.jpg",
+    "NUMBER": 24
+}

@@ -1,0 +1,23 @@
+{
+    "NAME": "Prison de Peinture",
+    "TYPE": "SPELL",
+    "SUB_TYPE": [
+        "Interférence"
+    ],
+    "ATTRIBUTES": {
+        "MOUTAIN": "",
+        "FOREST": "",
+        "OCEAN": "",
+        "HAND_COST": "5",
+        "RESERVE_COST": "5"
+    },
+    "EFECTS": "[[Fugace]]. (Envoyez-moi à la Défausse plutôt qu'en Réserve une fois mon effet résolu.)  Vous pouvez défausser une carte de votre Réserve pour réduire mon coût de {2}.  Renvoyez un Personnage ou Permanent ciblé sur le dessus du deck de son propriétaire.",
+    "ILLUSTRATOR": "",
+    "LORE": "« On dirait bien que tu n'as plus de lignes de fuite. »",
+    "FACTION": "Muna",
+    "RARITY": "Rare",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Au-delà des portes",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_26/JPG/fr_FR/e2e4d73c0294550f2720b23711b84433.jpg",
+    "NUMBER": 26
+}

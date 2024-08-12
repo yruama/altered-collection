@@ -1,0 +1,24 @@
+{
+    "NAME": "Thot",
+    "TYPE": "CHARACTER",
+    "SUB_TYPE": [
+        "Bureaucrate",
+        "Divinité"
+    ],
+    "ATTRIBUTES": {
+        "MOUTAIN": "3",
+        "FOREST": "3",
+        "OCEAN": "2",
+        "HAND_COST": "3",
+        "RESERVE_COST": "3"
+    },
+    "EFECTS": "Lorsque mon Expédition n'avance pas pendant le Crépuscule — Créez deux jetons Soldat [1/1/1 Recrue Ordis] dans l'Expédition ciblée après le Repos.",
+    "ILLUSTRATOR": "",
+    "LORE": "« La plume est plus forte que l'épée. »",
+    "FACTION": "Yzmir",
+    "RARITY": "Rare",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Au-delà des portes",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_22/JPG/fr_FR/042ad17a4a98f8c947cf14faeb488be7.jpg",
+    "NUMBER": 22
+}

@@ -1,0 +1,23 @@
+{
+    "NAME": "Physical Training",
+    "TYPE": "SPELL",
+    "SUB_TYPE": [
+        "Boon"
+    ],
+    "ATTRIBUTES": {
+        "MOUTAIN": "",
+        "FOREST": "",
+        "OCEAN": "",
+        "HAND_COST": "3",
+        "RESERVE_COST": "3"
+    },
+    "EFECTS": "Target Character gains 3 boosts[]. (A boost is a +1/+1/+1 counter. Remove it when it leaves the Expedition zone.)  Draw a card.",
+    "ILLUSTRATOR": "",
+    "LORE": "100 crunches, 100 push-ups, 100 squats, a 10-km run and a desire to prove yourself. Just your typical morning of Bravos training.",
+    "FACTION": "Bravos",
+    "RARITY": "Rare",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Beyond the Gates",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_26/JPG/en_US/5cc7d9635a8f863ac65b3b06eb20880e.jpg",
+    "NUMBER": 26
+}

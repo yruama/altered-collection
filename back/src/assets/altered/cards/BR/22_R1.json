@@ -1,0 +1,24 @@
+{
+    "NAME": "Shenlong",
+    "TYPE": "CHARACTER",
+    "SUB_TYPE": [
+        "Dragon",
+        "Divinité"
+    ],
+    "ATTRIBUTES": {
+        "MOUTAIN": "9",
+        "FOREST": "9",
+        "OCEAN": "9",
+        "HAND_COST": "6",
+        "RESERVE_COST": "6"
+    },
+    "EFECTS": "[Coriace 1]. (Les Sorts et capacités d'un adversaire qui me ciblent coûtent {1} de plus.)",
+    "ILLUSTRATOR": "",
+    "LORE": "Attention à ce que tu souhaites. Il est des dangers que même les Bravos préfèrent éviter.",
+    "FACTION": "Bravos",
+    "RARITY": "Rare",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Au-delà des portes",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_22/JPG/fr_FR/6a07d06aee11a4b1dedbda3e8e720fc0.jpg",
+    "NUMBER": 22
+}

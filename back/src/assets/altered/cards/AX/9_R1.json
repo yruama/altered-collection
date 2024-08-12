@@ -1,0 +1,23 @@
+{
+    "NAME": "Fée Clochette",
+    "TYPE": "CHARACTER",
+    "SUB_TYPE": [
+        "Fée"
+    ],
+    "ATTRIBUTES": {
+        "MOUTAIN": "3",
+        "FOREST": "1",
+        "OCEAN": "3",
+        "HAND_COST": "2",
+        "RESERVE_COST": "3"
+    },
+    "EFECTS": "{R} [Sabotez]. (Défaussez jusqu'à une carte d'une Réserve.)",
+    "ILLUSTRATOR": "",
+    "LORE": "Ding ding ! Quand quelque chose cloche, autant passer par la case rafistolage.",
+    "FACTION": "Axiom",
+    "RARITY": "Rare",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Au-delà des portes",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_09/JPG/fr_FR/5aaecacaf28941a2034f582377b79d8e.jpg",
+    "NUMBER": 9
+}

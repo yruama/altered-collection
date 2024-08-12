@@ -1,0 +1,20 @@
+{
+    "NAME": "Petit Pas, Bond de Géant",
+    "TYPE": "SPELL",
+    "SUB_TYPE": [
+        "Manœuvre"
+    ],
+    "ATTRIBUTES": {
+        "HAND_COST": "6",
+        "RESERVE_COST": "6"
+    },
+    "EFECTS": "[[Fugace]]. (Envoyez-moi à la Défausse plutôt qu'en Réserve une fois mon effet résolu.)  L'Expédition ciblée avance d'une région.",
+    "ILLUSTRATOR": "",
+    "LORE": "Un voyage de mille lieues commence toujours par un simple pas.",
+    "FACTION": "Yzmir",
+    "RARITY": "Commun",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Au-delà des portes",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_25/JPG/fr_FR/20b3ce057125dd911f13ce17e2ad5bfb.jpg",
+    "NUMBER": 25
+}

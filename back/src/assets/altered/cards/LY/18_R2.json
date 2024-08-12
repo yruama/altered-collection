@@ -1,0 +1,23 @@
+{
+    "NAME": "The Hatter",
+    "TYPE": "CHARACTER",
+    "SUB_TYPE": [
+        "Citizen"
+    ],
+    "ATTRIBUTES": {
+        "MOUTAIN": "5",
+        "FOREST": "5",
+        "OCEAN": "0",
+        "HAND_COST": "4",
+        "RESERVE_COST": "5"
+    },
+    "EFECTS": "{D} : Target Character with Hand Cost {3} or less gains [[Anchored]]. (Discard me from Reserve to do this.)",
+    "ILLUSTRATOR": "",
+    "LORE": "\"You can draw water out of a water-well, so I should think you could draw treacle out of a treacle-well - eh, stupid?\"",
+    "FACTION": "Bravos",
+    "RARITY": "Rare",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Beyond the Gates",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_18/JPG/en_US/fabd40ce96f42ae4a91c5627d0f8f7d5.jpg",
+    "NUMBER": 18
+}

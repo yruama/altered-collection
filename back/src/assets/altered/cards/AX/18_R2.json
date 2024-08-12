@@ -1,0 +1,23 @@
+{
+    "NAME": "Athéna",
+    "TYPE": "CHARACTER",
+    "SUB_TYPE": [
+        "Divinité"
+    ],
+    "ATTRIBUTES": {
+        "MOUTAIN": "4",
+        "FOREST": "3",
+        "OCEAN": "4",
+        "HAND_COST": "5",
+        "RESERVE_COST": "3"
+    },
+    "EFECTS": "{H} Si vous contrôlez au moins deux autres Personnages, je gagne 2 boosts.  {R} Si vous contrôlez au moins deux autres Personnages, je perds [[Fugace]].",
+    "ILLUSTRATOR": "",
+    "LORE": "« J'ai dissipé le nuage qui couvrait tes yeux. »",
+    "FACTION": "Ordis",
+    "RARITY": "Rare",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Au-delà des portes",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_18/JPG/fr_FR/afad9ae142a8461a34ca44d1481f956e.jpg",
+    "NUMBER": 18
+}

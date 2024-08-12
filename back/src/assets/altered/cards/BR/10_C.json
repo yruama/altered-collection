@@ -1,0 +1,23 @@
+{
+    "NAME": "Red",
+    "TYPE": "CHARACTER",
+    "SUB_TYPE": [
+        "Adventurer"
+    ],
+    "ATTRIBUTES": {
+        "MOUTAIN": "2",
+        "FOREST": "2",
+        "OCEAN": "2",
+        "HAND_COST": "2",
+        "RESERVE_COST": "2"
+    },
+    "EFECTS": "[Seasoned]. (I keep my boosts when I go to Reserve.)",
+    "ILLUSTRATOR": "",
+    "LORE": "Grandma would be proud.",
+    "FACTION": "Bravos",
+    "RARITY": "Common",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Beyond the Gates",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_10/JPG/en_US/55657f3e94ea1f9380751db57f91c4a8.jpg",
+    "NUMBER": 10
+}

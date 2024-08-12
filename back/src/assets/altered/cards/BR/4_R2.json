@@ -1,0 +1,23 @@
+{
+    "NAME": "Ratatosk",
+    "TYPE": "CHARACTER",
+    "SUB_TYPE": [
+        "Émissaire"
+    ],
+    "ATTRIBUTES": {
+        "MOUTAIN": "1",
+        "FOREST": "1",
+        "OCEAN": "1",
+        "HAND_COST": "1",
+        "RESERVE_COST": "3"
+    },
+    "EFECTS": "{R} Créez deux jetons Soldat [1/1/1 Recrue Ordis] dans mon Expédition.",
+    "ILLUSTRATOR": "",
+    "LORE": "Il a beau être petit, mieux vaut ne pas lui chercher des noises.",
+    "FACTION": "Ordis",
+    "RARITY": "Rare",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Au-delà des portes",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_04/JPG/fr_FR/4ae29105963560002db35ba801e4d264.jpg",
+    "NUMBER": 4
+}

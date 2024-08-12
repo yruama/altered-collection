@@ -1,0 +1,20 @@
+{
+    "NAME": "Tapis !",
+    "TYPE": "SPELL",
+    "SUB_TYPE": [
+        "Bénédiction"
+    ],
+    "ATTRIBUTES": {
+        "HAND_COST": "3",
+        "RESERVE_COST": "3"
+    },
+    "EFECTS": "Lancez un dé. Un Personnage ciblé gagne X boosts[], X étant le résultat. (Un boost est un compteur +1/+1/+1. Retirez-le lorsqu'il quitte la zone d'Expédition.)",
+    "ILLUSTRATOR": "",
+    "LORE": "Il y a des moments où la prudence est de mise, et d'autres pour de l'imprudence dans la mise !",
+    "FACTION": "Lyra",
+    "RARITY": "Commun",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Au-delà des portes",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_25/JPG/fr_FR/d77e2fde94d197dcca71682d0256cdd7.jpg",
+    "NUMBER": 25
+}

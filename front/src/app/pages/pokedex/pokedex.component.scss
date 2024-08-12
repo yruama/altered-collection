@@ -1,0 +1,110 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    height: calc(100vh - 70px - 122px - 45px);
+}
+
+
+.generations {
+    display: flex;
+    justify-content: space-between;
+}
+
+.generation {
+    border: 1px solid var(--menu-color-2);
+    margin: 4px;
+    padding: 8px 4px;
+    border-radius: 4px;
+}
+
+.generation:hover {
+    cursor: pointer;
+    background-color: var(--menu-color-1);
+}
+
+.is-selected {
+    background-color: var(--menu-color-1);
+}
+
+.pokemons-list {
+    flex: 1 0 20%;
+    max-width: calc(20% - 20px); // 20% car je veux 5 images par lignes 100/5 -20px car je met une marge de 10px par image (donc 2x10)
+    box-sizing: border-box;
+    text-align: center;
+    margin: 10px;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: #1e1e1e;
+
+    img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    &__number {
+        text-align: left;
+        color: grey;
+        margin-bottom: -1rem;
+    }
+
+    &__infos {
+        display: flex;
+        align-items: center;
+    }
+
+    &__type {
+        display: flex;
+
+        img {
+            margin: 8px;
+            width: 24px;
+        }
+    }
+}
+
+.pokemons-list:hover {
+    box-shadow: 0px 0 9px 5px rgb(13, 13, 13);
+}
+
+.footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding-bottom: 16px;
+    padding-left: 10%;
+    padding-right: 10%;
+    box-shadow: 0px -4px 6px 0px rgb(33 33 33);
+    box-shadow: 0 -2px 4px -1px rgba(0, 0, 0, 0.2);
+    background: #121212;
+    text-align: center;
+
+    &__load-more {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    &__pagination {
+        position: absolute;
+        right: calc(10% + 8px);
+        bottom: 24px;
+        float: right;
+    }
+}
+
+.pagination__total {
+    color: grey;
+}
+
+img {
+    max-width: 300px;
+}
+
+.altered {
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+    flex-wrap: wrap;
+}

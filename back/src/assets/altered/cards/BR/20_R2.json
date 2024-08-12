@@ -1,0 +1,23 @@
+{
+    "NAME": "Atlas",
+    "TYPE": "CHARACTER",
+    "SUB_TYPE": [
+        "Titan"
+    ],
+    "ATTRIBUTES": {
+        "MOUTAIN": "1",
+        "FOREST": "1",
+        "OCEAN": "1",
+        "HAND_COST": "5",
+        "RESERVE_COST": "5"
+    },
+    "EFECTS": "[Gigantesque]. (Je suis considéré présent dans chacune de vos Expéditions.)  Les jetons que vous contrôlez ont [Gigantesque].",
+    "ILLUSTRATOR": "",
+    "LORE": "Le poids du ciel ne saurait lui faire courber l'échine.",
+    "FACTION": "Ordis",
+    "RARITY": "Rare",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Au-delà des portes",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_20/JPG/fr_FR/c45dcf3e207b965a55595924499ca056.jpg",
+    "NUMBER": 20
+}

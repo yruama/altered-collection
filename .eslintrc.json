@@ -1,0 +1,71 @@
+{
+	"env": {
+		"browser": true,
+		"es2021": true
+	},
+	"extends": "standard-with-typescript",
+	"root": true,
+	"parserOptions": {
+		"ecmaVersion": "latest",
+		"sourceType": "module",
+		"project": "./tsconfig.json"
+	},
+	"ignorePatterns": ["node_modules/", "**/node_modules/", "dist/", "build/", "**/dist/", "**/build/", "**/*.spec.ts", "**/bin/"],
+	"overrides": [
+		{
+			"files": ["**/*.ts"]
+		}
+	],
+	"settings": {
+		"import/resolver": {
+			"typescript": {},
+			"node": {
+				"paths": ["src"],
+				"extensions": [".js", ".jsx", ".ts", ".tsx"]
+			}
+		}
+	},
+	"rules": {
+		"indent": ["error", "tab"],
+		"no-tabs": ["error", { "allowIndentationTabs": true }],
+		"@typescript-eslint/indent": ["error", "tab"],
+		"semi": ["error", "always"],
+		"@typescript-eslint/semi": ["error", "always"],
+		"quotes": "off",
+		"@typescript-eslint/quotes": "off",
+		"comma-dangle": ["error", "never"],
+		"@typescript-eslint/comma-dangle": ["error", "never"],
+		"@typescript-eslint/member-delimiter-style": [
+			"error",
+			{
+				"multiline": {
+					"delimiter": "semi",
+					"requireLast": true
+				},
+				"singleline": {
+					"delimiter": "semi",
+					"requireLast": false
+				},
+				"multilineDetection": "brackets"
+			}
+		],
+		"@typescript-eslint/consistent-type-imports": [
+			"error",
+			{
+				"prefer": "no-type-imports",
+				"disallowTypeAnnotations": true,
+				"fixStyle": "separate-type-imports"
+			}
+		],
+		"space-before-function-paren": ["error", "never"],
+		"@typescript-eslint/space-before-function-paren": ["error", "never"],
+		"@typescript-eslint/strict-boolean-expressions": ["error", { "allowAny": true }, { "allowNullableString": true }],
+		"@typescript-eslint/restrict-template-expressions": ["error", { "allowAny": true, "allowNullish": true }],
+		"@typescript-eslint/restrict-plus-operands": "off", // laisser en off
+		// "@typescript-eslint/explicit-function-return-type": "off",
+		// to be fixed
+		"import/no-duplicates": "off",
+		"@typescript-eslint/no-throw-literal": "off",
+		"no-unreachable": "off"
+	}
+}

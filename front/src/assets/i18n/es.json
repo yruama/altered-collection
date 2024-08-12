@@ -1,0 +1,85 @@
+{
+    "GENERAL": {
+      "home": "Inicio",
+      "pokedex": "Pokédex",
+      "about": "Acerca de",
+      "all": "Todos",
+      "load_more": "Cargar más Pokémon",
+      "create": "Crear",
+      "generation": "Generación",
+      "LANG": {
+        "fr": "Français",
+        "en": "English",
+        "es": "Español",
+        "de": "Deutsch",
+        "it": "Italiano",
+        "ja": "日本語",
+        "ko": "한국어",
+        "zh": "简体中文",            
+        "pt": "Português"
+      }
+    },
+    "POKELIST": {
+      "name": "Nombre de la lista",
+      "génération": "Generación de la lista",
+      "image": "Imagen",
+      "create_list": "Crear una lista",
+      "owned": "Poseídos",
+      "pokemon_name": "Nombre",
+      "sprite": "Sprite",
+      "type": "Tipo",
+      "note": "Nota",
+      "gen": "Gen"
+    },
+    "POKEDEX": {
+      "0gen": "Todas las generaciones",
+      "1gen": "1ª Generación",
+      "2gen": "2ª Generación",
+      "3gen": "3ª Generación",
+      "4gen": "4ª Generación",
+      "5gen": "5ª Generación",
+      "6gen": "6ª Generación",
+      "7gen": "7ª Generación",
+      "8gen": "8ª Generación",
+      "9gen": "9ª Generación"
+    },
+    "TYPE": {
+      "grass": "Planta",
+      "poison": "Veneno",
+      "fire": "Fuego",
+      "steel": "Acero",
+      "bug": "Bicho",
+      "water": "Agua",
+      "dark": "Siniestro",
+      "psychic": "Psíquico",
+      "dragon": "Dragón",
+      "fairy": "Hada",
+      "normal": "Normal",
+      "ground": "Tierra",
+      "fighting": "Lucha",
+      "flying": "Volador",
+      "electric": "Eléctrico",
+      "rock": "Roca",
+      "ice": "Hielo",
+      "ghost": "Fantasma"
+    },
+    "USER": {
+      "firstname": "Nombre",
+      "lastname": "Apellido",
+      "email": "Correo electrónico",
+      "username": "Nombre de usuario",
+      "password": "Contraseña",
+      "signup": "Registrarse",
+      "signin": "Iniciar sesión",
+      "signoff": "Cerrar sesión",
+      "profile": "Perfil",
+      "my_pokedex": "Mi pokédex"
+    },
+    "TOAST": {
+      "connexion_success": "Conexión exitosa",
+      "connexion_error": "Error de conexión",
+      "register_success": "Registro exitoso",
+      "register_error": "Error en el registro"
+    }
+}
+  

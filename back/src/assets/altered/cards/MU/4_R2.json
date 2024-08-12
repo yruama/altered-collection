@@ -1,0 +1,23 @@
+{
+    "NAME": "Soigneuse Muna",
+    "TYPE": "CHARACTER",
+    "SUB_TYPE": [
+        "Druide"
+    ],
+    "ATTRIBUTES": {
+        "MOUTAIN": "1",
+        "FOREST": "0",
+        "OCEAN": "0",
+        "HAND_COST": "1",
+        "RESERVE_COST": "1"
+    },
+    "EFECTS": "{D} : Un Personnage ciblé de Coût de Main {3} ou moins gagne [[Ancré]]. (Défaussez-moi de la Réserve pour ça.)",
+    "ILLUSTRATOR": "",
+    "LORE": "« Nous n'héritons pas de la terre de nos ancêtres, nous l'empruntons à nos enfants. »",
+    "FACTION": "Yzmir",
+    "RARITY": "Rare",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Au-delà des portes",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_MU_04/JPG/fr_FR/879fef24d3f454aa5d84e34d86ae98f4.jpg",
+    "NUMBER": 4
+}

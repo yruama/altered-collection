@@ -1,0 +1,23 @@
+     <div class="toto">
+      <table class="table table-header-rotated table-striped table-hover table-striped-column">
+        <thead>
+          <tr>
+            <th class="row-header">Set</th>
+            <!-- Following headers are rotated -->
+            <th *ngFor="let set of sets" class="diagonal-header sticky-header"><div><span> {{set.id}} </span></div></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let pokemon of pokemons">
+            <td class="sticky"> {{ pokemon.NAME }} </td>
+            <td *ngFor="let key of sets.length | forNumber">
+                <span *ngIf="key > -1 | checkDoubleObject: sets[key].id : pokemon.cards as index"> 
+                    <p-image [src]="pokemon.cards![index - 1].image + '/low.png'" alt="Image" width="25" [appDefaultImage]="env.assetsURL + '/default-card.png'" [preview]="true" />
+                </span>
+            </td>
+
+          </tr>
+          
+        </tbody>
+      </table>
+    </div>

@@ -1,0 +1,23 @@
+{
+    "NAME": "Cylindre de Kélon",
+    "TYPE": "PERMANENT",
+    "SUB_TYPE": [
+        "Repère"
+    ],
+    "ATTRIBUTES": {
+        "MOUTAIN": "",
+        "FOREST": "",
+        "OCEAN": "",
+        "HAND_COST": "1",
+        "RESERVE_COST": "1"
+    },
+    "EFECTS": "{T} : Je gagne deux compteurs Kelon.  {T}, dépensez un de mes compteurs Kelon : le prochain Personnage que vous jouez ce tour gagne 1 boost.",
+    "ILLUSTRATOR": "",
+    "LORE": "Cette petite pile est la carte maîtresse de l'Axiom. Le Kélon produit une énergie phénoménale, pour laquelle les ingénieurs trouvent chaque jour de nouvelles applications.",
+    "FACTION": "Bravos",
+    "RARITY": "Rare",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Au-delà des portes",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_26/JPG/fr_FR/520eda889a502f1d7e401b3b6ce42e07.jpg",
+    "NUMBER": 26
+}

@@ -1,0 +1,21 @@
+{
+    "NAME": "Maw",
+    "TYPE": "TOKEN",
+    "SUB_TYPE": [
+        "Companion"
+    ],
+    "ATTRIBUTES": {
+        "MOUTAIN": "0",
+        "FOREST": "0",
+        "OCEAN": "0"
+    },
+    "EFECTS": "When you sacrifice a Character — I gain 2 boosts.",
+    "ILLUSTRATOR": "",
+    "LORE": "Always hungry for new ideas...",
+    "FACTION": "Yzmir",
+    "RARITY": "Common",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Beyond the Gates",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_31/JPG/en_US/2a5bb6c4f54b5d1354e24d46315ae9dd.jpg",
+    "NUMBER": 31
+}

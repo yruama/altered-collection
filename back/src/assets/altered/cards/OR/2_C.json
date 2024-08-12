@@ -1,0 +1,15 @@
+{
+    "NAME": "Waru & Mack",
+    "TYPE": "HERO",
+    "SUB_TYPE": [],
+    "ATTRIBUTES": {},
+    "EFECTS": "À Midi, si vous contrôlez au moins un Bureaucrate — Créez un jeton Soldat [1/1/1 Recrue Ordis] dans l'Expédition ciblée.  Lorsque vous jouez un Bureaucrate — Vous pouvez lui faire gagner [[Endormi]]. (Au Crépuscule, ignorez ses statistiques. Au Repos, il ne va pas en Réserve et il perd Endormi.)",
+    "ILLUSTRATOR": "",
+    "LORE": "La bureaucratie est un art qui exige une grande planification.",
+    "FACTION": "Ordis",
+    "RARITY": "Commun",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Au-delà des portes",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_02/JPG/fr_FR/9e1ab4e5ddc39396f3db3f9a9e65794c.jpg",
+    "NUMBER": 2
+}

@@ -1,0 +1,23 @@
+{
+    "NAME": "Cernunnos",
+    "TYPE": "CHARACTER",
+    "SUB_TYPE": [
+        "Druide",
+        "Divinité"
+    ],
+    "ATTRIBUTES": {
+        "MOUTAIN": "4",
+        "FOREST": "4",
+        "OCEAN": "4",
+        "HAND_COST": "3",
+        "RESERVE_COST": "3"
+    },
+    "ILLUSTRATOR": "",
+    "LORE": "On peut l'entendre battre dans les arbres, au plus profond de leurs racines : c'est le cœur de la nature.",
+    "FACTION": "Muna",
+    "RARITY": "Rare",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Au-delà des portes",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_MU_14/JPG/fr_FR/3fad2031de5b50ae0cb175ed4f7aa2ef.jpg",
+    "NUMBER": 14
+}

@@ -1,0 +1,23 @@
+{
+    "NAME": "Asmodeus",
+    "TYPE": "CHARACTER",
+    "SUB_TYPE": [
+        "Deity"
+    ],
+    "ATTRIBUTES": {
+        "MOUTAIN": "4",
+        "FOREST": "4",
+        "OCEAN": "4",
+        "HAND_COST": "5",
+        "RESERVE_COST": "5"
+    },
+    "EFECTS": "{J} Roll a die. On a 4+, I gain [[Anchored]]. On a 1-3, I gain 3 boosts[]. (During Rest, I don't go to Reserve and I lose Anchored. A boost is a +1/+1/+1 counter. Remove it when it leaves the Expedition zone.)",
+    "ILLUSTRATOR": "",
+    "LORE": "\"Wanna play a game?\"",
+    "FACTION": "Lyra",
+    "RARITY": "Rare",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Beyond the Gates",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_20/JPG/en_US/0fdeca5d4a57b107447522c535a1b6c6.jpg",
+    "NUMBER": 20
+}

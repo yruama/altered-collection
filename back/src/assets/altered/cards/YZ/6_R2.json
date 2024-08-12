@@ -1,0 +1,23 @@
+{
+    "NAME": "Fée des Dents",
+    "TYPE": "CHARACTER",
+    "SUB_TYPE": [
+        "Fée"
+    ],
+    "ATTRIBUTES": {
+        "MOUTAIN": "1",
+        "FOREST": "1",
+        "OCEAN": "1",
+        "HAND_COST": "2",
+        "RESERVE_COST": "2"
+    },
+    "EFECTS": "{H} [Sabotez]. (Défaussez jusqu'à une carte d'une Réserve.)",
+    "ILLUSTRATOR": "",
+    "LORE": "« Allez, petite, souris ! »",
+    "FACTION": "Bravos",
+    "RARITY": "Rare",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Au-delà des portes",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_06/JPG/fr_FR/0117c6d52d1e6548b785bf7b8a35da81.jpg",
+    "NUMBER": 6
+}

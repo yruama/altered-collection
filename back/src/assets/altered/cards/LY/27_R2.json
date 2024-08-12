@@ -1,0 +1,23 @@
+{
+    "NAME": "Apothéose de l'Esprit",
+    "TYPE": "SPELL",
+    "SUB_TYPE": [
+        "Conjuration"
+    ],
+    "ATTRIBUTES": {
+        "MOUTAIN": "",
+        "FOREST": "",
+        "OCEAN": "",
+        "HAND_COST": "9",
+        "RESERVE_COST": "9"
+    },
+    "EFECTS": "[[Fugace]].  Révélez les quatre premières cartes de votre deck. Choisissez jusqu'à deux Personnages parmi ces cartes et mettez-les dans vos Expéditions. Ils gagnent [[Fugace]]. Défaussez les autres cartes. (N'activez pas de déclencheurs {h}.)",
+    "ILLUSTRATOR": "",
+    "LORE": "Celui qui regarde à l'extérieur rêve, celui qui regarde à l'intérieur s'éveille.",
+    "FACTION": "Bravos",
+    "RARITY": "Rare",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Au-delà des portes",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_27/JPG/fr_FR/ec29a5281b28a38306cacb5dc357f980.jpg",
+    "NUMBER": 27
+}

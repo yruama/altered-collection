@@ -1,0 +1,23 @@
+{
+    "NAME": "Nurture",
+    "TYPE": "SPELL",
+    "SUB_TYPE": [
+        "Boon"
+    ],
+    "ATTRIBUTES": {
+        "MOUTAIN": "",
+        "FOREST": "",
+        "OCEAN": "",
+        "HAND_COST": "2",
+        "RESERVE_COST": "1"
+    },
+    "EFECTS": "Up to two target Characters each gain 1 boost.",
+    "ILLUSTRATOR": "",
+    "LORE": "When the sun shines, we'll shine together.",
+    "FACTION": "Ordis",
+    "RARITY": "Rare",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Beyond the Gates",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_MU_27/JPG/en_US/8ee2ed33d2532e244ebf012a7555c92e.jpg",
+    "NUMBER": 27
+}

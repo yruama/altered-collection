@@ -1,0 +1,23 @@
+{
+    "NAME": "Augure Yzmir",
+    "TYPE": "CHARACTER",
+    "SUB_TYPE": [
+        "Mage",
+        "Érudit"
+    ],
+    "ATTRIBUTES": {
+        "MOUTAIN": "2",
+        "FOREST": "1",
+        "OCEAN": "1",
+        "HAND_COST": "1",
+        "RESERVE_COST": "1"
+    },
+    "ILLUSTRATOR": "",
+    "LORE": "Elle ne lira pas l'avenir dans les étoiles, elle changera elle-même sa destinée.",
+    "FACTION": "Axiom",
+    "RARITY": "Rare",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Au-delà des portes",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_08/JPG/fr_FR/be91fc4d39a94e1587e44d735c53c0bd.jpg",
+    "NUMBER": 8
+}

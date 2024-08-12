@@ -1,0 +1,22 @@
+{
+    "NAME": "Inari",
+    "TYPE": "CHARACTER",
+    "SUB_TYPE": [
+        "Deity"
+    ],
+    "ATTRIBUTES": {
+        "MOUTAIN": "1",
+        "FOREST": "3",
+        "OCEAN": "3",
+        "HAND_COST": "3",
+        "RESERVE_COST": "2"
+    },
+    "ILLUSTRATOR": "",
+    "LORE": "Harmony may bloom from a single act of kindness, as a rice field may sprout from a single grain of rice.",
+    "FACTION": "Muna",
+    "RARITY": "Common",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Beyond the Gates",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_MU_11/JPG/en_US/d9d76dc1f9e413abc27d32bfe9da8add.jpg",
+    "NUMBER": 11
+}

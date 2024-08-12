@@ -1,0 +1,146 @@
+<p-card class="header-card">
+	<div class="flex menu">
+		<li
+			*ngFor="let item of menu; let i = index"
+			class="bloc-menu custom-footer-{{ i }}"
+			(click)="onCommandClick(item.command)"
+			[ngClass]="item.isHovered || item.isActive ? 'custom-menu-' + i : ''"
+			(mouseenter)="item.isHovered = true"
+			(mouseleave)="item.isHovered = false"
+		>
+			<i class="{{ item.icon }} mb-2 text-2xl"></i> {{ item.name }}
+
+			<span *ngIf="item.key === 'users'" style="z-index: 888;">
+				<button class="user-menu-button" pButton type="button" #profileButton (click)="myMenu.toggle($event)"></button>
+				<p-menu class="user-menu-dropdown" #myMenu [model]="items" [popup]="true"></p-menu>
+			</span>
+		</li>
+	</div>
+
+	<app-toggle-darkmode class="theme-switcher"></app-toggle-darkmode>
+</p-card>
+
+
+<!-- 
+	<p-menubar
+		class="header"
+		[model]="items"
+	>
+		<ng-template pTemplate="start">
+			<img
+				src="assets/imgs/evoli_logo.png"
+				height="40"
+				class="mr-2"
+			/>
+		</ng-template>
+
+		<div class="flex align-items-center">
+			<div *ngIf="_user.isAuthenticated(); else auth">
+				<p-menu
+					#menu
+					[model]="pofileItems"
+					[popup]="true"
+				></p-menu>
+				<button
+					pButton
+					type="button"
+					(click)="menu.toggle($event)"
+					icon="pi pi-bars"
+					label="Show"
+				></button>
+			</div>
+			<ng-template #auth>
+				<div class="auth">
+					<p-button routerLink="/auth/sign-up"> {{ "USER.signup" | translate }} </p-button>
+					<p-button
+						class="ml-4"
+						styleClass="p-button-warning"
+						routerLink="/auth/sign-in"
+					>
+						{{ "USER.signin" | translate }}
+					</p-button>
+				</div>
+			</ng-template>
+
+			<p-dropdown
+				[options]="languages"
+				[(ngModel)]="currentLanguage"
+				(ngModelChange)="onLanguageChange($event)"
+				placeholder="Select a Country"
+				appendTo="body"
+				class="ml-3"
+			>
+				<ng-template pTemplate="selectedItem">
+					<div
+						class="flex align-items-center gap-2"
+						*ngIf="currentLanguage.code"
+					>
+						<span [class]="currentLanguage.icon"></span>
+					</div>
+				</ng-template>
+				<ng-template
+					let-language
+					pTemplate="item"
+				>
+					<div class="flex align-items-center gap-2">
+						<span [class]="language.icon"></span>
+						<div>{{ "GENERAL.LANG." + language.code | translate }}</div>
+					</div>
+				</ng-template>
+			</p-dropdown>
+
+			
+		</div>
+	</p-menubar>
+
+<p>header works!</p>
+
+<p-button (click)="changeTheme('saga-blue')">saga-blue</p-button> <br /><br />
+<p-button (click)="changeTheme('vela-blue')">vela-blue</p-button> <br /><br />
+<p-button (click)="changeTheme('arya-blue')">arya-blue</p-button> <br /><br />
+
+<p-button (click)="changeTheme('saga-orange')">saga-orange</p-button> <br /><br />
+<p-button (click)="changeTheme('vela-orange')">vela-orange</p-button> <br /><br />
+<p-button (click)="changeTheme('arya-orange')">arya-orange</p-button> <br /><br />
+
+<p-button (click)="changeTheme('saga-green')">saga-green</p-button> <br /><br />
+<p-button (click)="changeTheme('vela-green')">vela-green</p-button> <br /><br />
+<p-button (click)="changeTheme('arya-green')">arya-green</p-button> <br /><br />
+
+<p-button (click)="changeTheme('saga-purple')">saga-purple</p-button> <br /><br />
+<p-button (click)="changeTheme('vela-purple')">vela-purple</p-button> <br /><br />
+<p-button (click)="changeTheme('arya-purple')">arya-purple</p-button> <br /><br />
+
+<hr />
+
+<div class="flex">
+	<p-button
+		label="Primary"
+		styleClass="p-button-raised"
+	></p-button>
+	<p-button
+		label="Secondary"
+		styleClass="p-button-raised p-button-secondary"
+	></p-button>
+	<p-button
+		label="Success"
+		styleClass="p-button-raised p-button-success"
+	></p-button>
+	<p-button
+		label="Info"
+		styleClass="p-button-raised p-button-info"
+	></p-button>
+	<p-button
+		label="Warning"
+		styleClass="p-button-raised p-button-warning"
+	></p-button>
+	<p-button
+		label="Help"
+		styleClass="p-button-raised p-button-help"
+	></p-button>
+	<p-button
+		label="Danger"
+		styleClass="p-button-raised p-button-danger"
+	></p-button>
+</div>
+-->

@@ -1,0 +1,23 @@
+{
+    "NAME": "Encrière de l'Ouroboros",
+    "TYPE": "CHARACTER",
+    "SUB_TYPE": [
+        "Artiste"
+    ],
+    "ATTRIBUTES": {
+        "MOUTAIN": "3",
+        "FOREST": "3",
+        "OCEAN": "2",
+        "HAND_COST": "3",
+        "RESERVE_COST": "3"
+    },
+    "EFECTS": "Lorsque je vais en Réserve depuis la zone d'Expédition — Vous pouvez renvoyer une autre carte de votre Réserve dans votre main.",
+    "ILLUSTRATOR": "",
+    "LORE": "Le liquide noir traça des formes sur la pierre, et de ces traits jaillirent d’innombrables créatures de suie.",
+    "FACTION": "Lyra",
+    "RARITY": "Commun",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Au-delà des portes",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_10/JPG/fr_FR/f4afeeba1fbfb7380afb8fad7538da5c.jpg",
+    "NUMBER": 10
+}

@@ -1,0 +1,23 @@
+{
+    "NAME": "Ganesha",
+    "TYPE": "CHARACTER",
+    "SUB_TYPE": [
+        "Deity"
+    ],
+    "ATTRIBUTES": {
+        "MOUTAIN": "5",
+        "FOREST": "5",
+        "OCEAN": "5",
+        "HAND_COST": "7",
+        "RESERVE_COST": "7"
+    },
+    "EFECTS": "{J} For each other Character you control, you may activate its {j} triggers.",
+    "ILLUSTRATOR": "",
+    "LORE": "Knowledge and wisdom must walk side by side.",
+    "FACTION": "Muna",
+    "RARITY": "Rare",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Beyond the Gates",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_19/JPG/en_US/2fc6b0e038cd700d0db8d0b7b1bd2f7f.jpg",
+    "NUMBER": 19
+}

@@ -1,0 +1,23 @@
+{
+    "NAME": "Armurière de la Fonderie",
+    "TYPE": "CHARACTER",
+    "SUB_TYPE": [
+        "Ingénieur"
+    ],
+    "ATTRIBUTES": {
+        "MOUTAIN": "2",
+        "FOREST": "2",
+        "OCEAN": "2",
+        "HAND_COST": "2",
+        "RESERVE_COST": "3"
+    },
+    "EFECTS": "{R} Créez un jeton Robot [2/2/2 Scarabot] dans l'Expédition ciblée.",
+    "ILLUSTRATOR": "",
+    "LORE": "Aucun Scarabot ne survivrait dans le Tumulte sans blindage.",
+    "FACTION": "Bravos",
+    "RARITY": "Rare",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Au-delà des portes",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_16/JPG/fr_FR/e733f058ca0047f0a3032f5ef10d2e41.jpg",
+    "NUMBER": 16
+}

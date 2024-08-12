@@ -1,0 +1,23 @@
+{
+    "NAME": "Asmodée",
+    "TYPE": "CHARACTER",
+    "SUB_TYPE": [
+        "Divinité"
+    ],
+    "ATTRIBUTES": {
+        "MOUTAIN": "5",
+        "FOREST": "5",
+        "OCEAN": "5",
+        "HAND_COST": "6",
+        "RESERVE_COST": "6"
+    },
+    "EFECTS": "{J} Lancez un dé. Sur 4+, je gagne [[Ancré]]. Sur 1-3, je gagne 3 boosts. (Au Repos, je ne vais pas en Réserve et je perds Ancré.)",
+    "ILLUSTRATOR": "",
+    "LORE": "« Ça te dit, un petit jeu ? »",
+    "FACTION": "Bravos",
+    "RARITY": "Rare",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Au-delà des portes",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_20/JPG/fr_FR/899e5741cf15a15e0397be61e8770de0.jpg",
+    "NUMBER": 20
+}

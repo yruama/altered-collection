@@ -1,0 +1,23 @@
+{
+    "NAME": "Aspirant de Havre",
+    "TYPE": "CHARACTER",
+    "SUB_TYPE": [
+        "Apprenti"
+    ],
+    "ATTRIBUTES": {
+        "MOUTAIN": "1",
+        "FOREST": "3",
+        "OCEAN": "1",
+        "HAND_COST": "2",
+        "RESERVE_COST": "4"
+    },
+    "EFECTS": "{R} Créez un jeton Soldat [1/1/1 Recrue Ordis] dans chacune de vos Expéditions.",
+    "ILLUSTRATOR": "",
+    "LORE": "« Ok, gamin, montre-moi ce que t'as appris. »",
+    "FACTION": "Ordis",
+    "RARITY": "Rare",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Au-delà des portes",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_09/JPG/fr_FR/4954a8e40d2c2dd538b8ac19dd9d5d20.jpg",
+    "NUMBER": 9
+}

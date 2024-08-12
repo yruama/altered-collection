@@ -1,0 +1,23 @@
+{
+    "NAME": "Générateur Kélonique",
+    "TYPE": "PERMANENT",
+    "SUB_TYPE": [
+        "Repère"
+    ],
+    "ATTRIBUTES": {
+        "MOUTAIN": "",
+        "FOREST": "",
+        "OCEAN": "",
+        "HAND_COST": "4",
+        "RESERVE_COST": "4"
+    },
+    "EFECTS": "{1}, {T} : Piochez une carte.",
+    "ILLUSTRATOR": "",
+    "LORE": "« Les mines de Suspira seront bientôt exsangues. Votre précieux Kélon va se tarir. »",
+    "FACTION": "Ordis",
+    "RARITY": "Rare",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Au-delà des portes",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_27/JPG/fr_FR/1a44f47d371d774a32cfe3b2bad706ed.jpg",
+    "NUMBER": 27
+}

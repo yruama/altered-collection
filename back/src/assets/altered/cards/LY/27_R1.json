@@ -1,0 +1,23 @@
+{
+    "NAME": "Mind Apotheosis",
+    "TYPE": "SPELL",
+    "SUB_TYPE": [
+        "Conjuration"
+    ],
+    "ATTRIBUTES": {
+        "MOUTAIN": "",
+        "FOREST": "",
+        "OCEAN": "",
+        "HAND_COST": "8",
+        "RESERVE_COST": "8"
+    },
+    "EFECTS": "[[Fleeting]].  Reveal the top four cards of your Deck. Choose up to two Characters from these cards and put them in your Expeditions. They gain [[Fleeting]]. Discard the other cards. (Don't activate any {h} triggers.)",
+    "ILLUSTRATOR": "",
+    "LORE": "Who looks outside, dreams; who looks inside, awakes.",
+    "FACTION": "Lyra",
+    "RARITY": "Rare",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Beyond the Gates",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_27/JPG/en_US/16847e95405c1ce3d39454f9b29ae5a2.jpg",
+    "NUMBER": 27
+}

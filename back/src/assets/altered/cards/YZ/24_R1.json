@@ -1,0 +1,23 @@
+{
+    "NAME": "Portail de Bannissement",
+    "TYPE": "SPELL",
+    "SUB_TYPE": [
+        "Interférence"
+    ],
+    "ATTRIBUTES": {
+        "MOUTAIN": "",
+        "FOREST": "",
+        "OCEAN": "",
+        "HAND_COST": "4",
+        "RESERVE_COST": "5"
+    },
+    "EFECTS": "Défaussez un Personnage ou Permanent ciblé.",
+    "ILLUSTRATOR": "",
+    "LORE": "« Laissez-moi vous montrer la porte. »",
+    "FACTION": "Yzmir",
+    "RARITY": "Rare",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Au-delà des portes",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_24/JPG/fr_FR/4e0d18fc107335d63725786baa02e07a.jpg",
+    "NUMBER": 24
+}

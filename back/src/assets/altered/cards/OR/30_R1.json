@@ -1,0 +1,23 @@
+{
+    "NAME": "Transporteur Ordis",
+    "TYPE": "PERMANENT",
+    "SUB_TYPE": [
+        "Repère"
+    ],
+    "ATTRIBUTES": {
+        "MOUTAIN": "",
+        "FOREST": "",
+        "OCEAN": "",
+        "HAND_COST": "5",
+        "RESERVE_COST": "5"
+    },
+    "EFECTS": "À Midi — Créez un jeton Soldat [1/1/1 Recrue Ordis] dans chacune de vos Expéditions.",
+    "ILLUSTRATOR": "",
+    "LORE": "Le flot des recrues Ordis ne semble pas vouloir se tarir.",
+    "FACTION": "Ordis",
+    "RARITY": "Rare",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Au-delà des portes",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_30/JPG/fr_FR/63bc6e7565578f0d67e6bc2a251ee49e.jpg",
+    "NUMBER": 30
+}

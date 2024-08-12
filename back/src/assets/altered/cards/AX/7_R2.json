@@ -1,0 +1,23 @@
+{
+    "NAME": "Mécanicienne de la Fonderie",
+    "TYPE": "CHARACTER",
+    "SUB_TYPE": [
+        "Ingénieur"
+    ],
+    "ATTRIBUTES": {
+        "MOUTAIN": "1",
+        "FOREST": "1",
+        "OCEAN": "2",
+        "HAND_COST": "1",
+        "RESERVE_COST": "1"
+    },
+    "EFECTS": "{D} : Le prochain Permanent que vous jouez ce tour coûte {1} de moins. (Défaussez-moi de la Réserve pour ça.)",
+    "ILLUSTRATOR": "",
+    "LORE": "On ne choisit jamais où et quand un petit correctif est nécessaire.",
+    "FACTION": "Ordis",
+    "RARITY": "Rare",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Au-delà des portes",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_07/JPG/fr_FR/9b5204c6ccd1f147022dfc26dc12fb6a.jpg",
+    "NUMBER": 7
+}

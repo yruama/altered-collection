@@ -1,0 +1,23 @@
+{
+    "NAME": "Ordis Attorney",
+    "TYPE": "CHARACTER",
+    "SUB_TYPE": [
+        "Bureaucrat"
+    ],
+    "ATTRIBUTES": {
+        "MOUTAIN": "2",
+        "FOREST": "2",
+        "OCEAN": "2",
+        "HAND_COST": "2",
+        "RESERVE_COST": "2"
+    },
+    "EFECTS": "When my Expedition fails to move forward during Dusk — Draw a card.",
+    "ILLUSTRATOR": "",
+    "LORE": "\"Objection!\"",
+    "FACTION": "Ordis",
+    "RARITY": "Rare",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Beyond the Gates",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_16/JPG/en_US/e22685a7cd5839992c23abeb9d8e865e.jpg",
+    "NUMBER": 16
+}

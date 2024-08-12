@@ -1,0 +1,23 @@
+{
+    "NAME": "Sakarabru",
+    "TYPE": "CHARACTER",
+    "SUB_TYPE": [
+        "Deity"
+    ],
+    "ATTRIBUTES": {
+        "MOUTAIN": "5",
+        "FOREST": "5",
+        "OCEAN": "5",
+        "HAND_COST": "7",
+        "RESERVE_COST": "4"
+    },
+    "EFECTS": "{H} Your opponent's Expedition facing mine moves backwards one region.",
+    "ILLUSTRATOR": "",
+    "LORE": "When such a terrifying being appears in your path, taking a step back is only natural.",
+    "FACTION": "Yzmir",
+    "RARITY": "Rare",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Beyond the Gates",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_18/JPG/en_US/272c5163b8b05d8ab4960da82f7fdfc2.jpg",
+    "NUMBER": 18
+}

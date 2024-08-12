@@ -1,0 +1,65 @@
+
+<!--<div class="generations">
+    <div class="generation" 
+        (click)="selectGeneration(-1)"
+        [ngClass]="currentGeneration === -1 ? ' is-selected' : ''"> 
+            {{'GENERAL.all' | translate }}
+    </div>
+
+    <div class="generation" 
+         (click)="selectGeneration(i)"
+         [ngClass]="currentGeneration === i ? ' is-selected' : ''"
+         *ngFor="let generation of generations; let i = index">
+            {{ 'Gen N°' + generation.GENERATION_NO }} - {{ generation.NAME }} 
+    </div>
+</div>
+
+<div class="container">
+
+    <div class="pokemons-list" [routerLink]="['/pokedex', pokemon.POKEMON_ID]" [id]="'pokemon-' + pokemon.POKEMON_ID" *ngFor="let pokemon of pokemons; let i = index">
+
+        <div>
+            <div class="pokemons-list__artwork">
+                <img [src]="env.assetsURL + '/artwork/' + pokemon.POKEMON_ID + '.png'" alt="">
+            </div>
+            <div class="pokemons-list__number">N° {{ pokemon.POKEMON_ID | zeroPadding }}</div>
+            <div class="pokemons-list__infos">
+                <div class="pokemons-list__name"> {{ pokemon.NAME }} </div>
+                <div class="pokemons-list__type">
+                    <span *ngFor="let type of pokemon.TYPE" [pTooltip]="'TYPE.' + type.name  | translate"  tooltipPosition="top">
+                        <img [src]="env.assetsURL + '/types/' + type.id + '.png'" alt="">
+                    </span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+
+    <p-button
+        class="mt-3 footer__load-more"
+        [loading]="buttonLoading"
+        label="{{ 'GENERAL.load_more' | translate }}"
+        (click)="loadMore()"
+    ></p-button>
+
+    <div class="footer__pagination">
+        {{ pagination.offset + 1 }} - {{ (pagination.offset + pagination.limit) < pagination.max ? (pagination.offset + pagination.limit) : pagination.max }} <span class="pagination__total">{{ 'GENERAL.on' | translate }} {{ pagination.max }}</span>
+    </div>
+    
+</div>
+
+<p-sidebar [(visible)]="sidebarVisible">
+    <app-filter></app-filter>
+</p-sidebar>
+<p-button (click)="sidebarVisible = true" icon="pi pi-arrow-right" />-->
+
+Altered
+
+<div class="altered" >
+
+    <img *ngFor="let img of altered" [src]="img.IMAGE" alt="">
+
+</div>

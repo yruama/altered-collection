@@ -1,0 +1,20 @@
+{
+    "NAME": "Ouvrez les Portes",
+    "TYPE": "SPELL",
+    "SUB_TYPE": [
+        "Manœuvre"
+    ],
+    "ATTRIBUTES": {
+        "HAND_COST": "5",
+        "RESERVE_COST": "6"
+    },
+    "EFECTS": "Créez deux jetons Soldat [1/1/1 Recrue Ordis] dans chacune de vos Expéditions.",
+    "ILLUSTRATOR": "",
+    "LORE": "La Porte du Solstice est ouverte. Pour la première fois depuis des temps immémoriaux, l'humanité va découvrir ce qui se trouve au-delà des portes.",
+    "FACTION": "Ordis",
+    "RARITY": "Commun",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Au-delà des portes",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_26/JPG/fr_FR/64c960d6a4fd09a8a7d157ff70f101b0.jpg",
+    "NUMBER": 26
+}

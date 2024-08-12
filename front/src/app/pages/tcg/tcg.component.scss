@@ -1,0 +1,143 @@
+.table-header-rotated th.diagonal-header{
+    height: 65px;
+    width: 40px;
+    min-width: 40px;
+    max-width: 40px;
+    position: relative;
+    vertical-align: bottom;
+    padding: 0;
+    font-size: 12px;
+    line-height: 0.8;
+  }
+  
+  .table-header-rotated th.diagonal-header > div{
+    position: relative;
+    top: 0px;
+    left: -33px;
+    height: 100%;
+    -ms-transform:skew(45deg,0deg);
+    -moz-transform:skew(45deg,0deg);
+    -webkit-transform:skew(45deg,0deg);
+    -o-transform:skew(45deg,0deg);
+    transform:skew(45deg,0deg);
+    overflow: hidden;
+  
+  }
+  
+  .table-header-rotated th.diagonal-header span {
+    -ms-transform:skew(-45deg,0deg) rotate(45deg);
+    -moz-transform:skew(-45deg,0deg) rotate(45deg);
+    -webkit-transform:skew(-45deg,0deg) rotate(45deg);
+    -o-transform:skew(-45deg,0deg) rotate(45deg);
+    transform:skew(-45deg,0deg) rotate(45deg);
+    position: absolute;
+    bottom: 12px; 
+    left: -25px; 
+    display: inline-block;
+    width: 100%;
+    width: 85px;
+    text-align: left;
+    white-space: nowrap; /*whether to display in one line or not*/
+  }
+    
+  .table-striped-column > thead > tr th:nth-of-type(even) div {
+      background-color: #1e1e1e;
+  }
+  
+  .table-striped-column > tbody > tr td:nth-of-type(even) {
+      background-color: #1e1e1e;
+  }
+
+  .table-striped-column > tbody > tr td:nth-of-type(odd) {
+    background-color: #353535;
+}
+
+.table-striped-column > thead > tr th:nth-of-type(odd) div {
+    background-color: #353535;
+}
+
+.row-header {
+    text-align: left;
+    padding-left: 12px;
+    width: 125px;
+    display: flex;
+    align-items: center;
+    height: 65px;
+}
+
+th.row-header {
+    box-shadow: none !important;
+    z-index: 0;
+}
+
+th.sticky-header {
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0;
+    z-index: 2; /* Ensure header is above other content */
+}
+
+.toto {
+    overflow-x: scroll !important;
+    padding-bottom: 16px;
+}
+
+th.sticky, td.sticky {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    left: 0;
+    box-shadow: 2px 0px 2px black;
+    text-align: center;
+    z-index: 5;
+}
+
+td > span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin-bottom: -3px;
+}
+
+//   table{
+//     border-collapse: collapse;
+//     --table-border-width: 1px;
+//   }
+//   th {
+//     white-space: nowrap;
+//     position: relative;
+//     width: 55px;
+//     height: 100px;
+//   }
+//   th > div {
+//     /* place div at bottom left of the th parent */
+//     position: absolute;
+//     bottom: 0;
+//     left: 0;
+//     /* Make sure short setting names still meet the corner of the parent otherwise you'll get a gap */
+//     text-align: left;
+//     /* Move the top left corner of the span bottom-border to line up with the top left corner of the td border-right border so that the border corners are matched */
+//     /* Rotate -45 degrees about matched border corners */
+//     transform: 
+//       rotate(315deg);
+//   }
+//   th > div > span {
+//     /* make sure the bottom of the span is matched up with the bottom of the parent div */
+//     position: absolute;
+//     bottom: 0;
+//     left: 0;
+//     border-bottom: 1px solid gray;
+//   }
+//   td {
+//       border-right: 0px solid gray;
+//       /* make sure this is at least as wide as sqrt(2) * height of your tallest letter or the headers will overlap each other */
+//       min-width: 30px;
+//       text-align: right;
+//       padding-top: 2px;
+//       padding-left: 5px;
+//   }
+//   /*TADA! a response slanty border header table*/
+
+//   .p-datatable .p-datatable-thead > tr > th {
+//     border: 0 !important;
+//   }

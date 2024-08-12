@@ -1,0 +1,24 @@
+{
+    "NAME": "Martengale",
+    "TYPE": "CHARACTER",
+    "SUB_TYPE": [
+        "Animal",
+        "Esprit"
+    ],
+    "ATTRIBUTES": {
+        "MOUTAIN": "1",
+        "FOREST": "1",
+        "OCEAN": "0",
+        "HAND_COST": "1",
+        "RESERVE_COST": "1"
+    },
+    "EFECTS": "{D} : La prochaine carte que vous jouez ce tour coûte {1} de moins. (Défaussez-moi de la Réserve pour ça.)",
+    "ILLUSTRATOR": "",
+    "LORE": "Voir passer une martengale est toujours un bon présage.",
+    "FACTION": "Lyra",
+    "RARITY": "Commun",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Au-delà des portes",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_04/JPG/fr_FR/740c5e11b52a55b1067c043a2ec02643.jpg",
+    "NUMBER": 4
+}

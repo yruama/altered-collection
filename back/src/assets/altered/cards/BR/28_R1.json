@@ -1,0 +1,23 @@
+{
+    "NAME": "Intimidation",
+    "TYPE": "SPELL",
+    "SUB_TYPE": [
+        "Interférence"
+    ],
+    "ATTRIBUTES": {
+        "MOUTAIN": "",
+        "FOREST": "",
+        "OCEAN": "",
+        "HAND_COST": "2",
+        "RESERVE_COST": "2"
+    },
+    "EFECTS": "[[Fugace]]. (Envoyez-moi à la Défausse plutôt qu'en Réserve une fois mon effet résolu.)  Renvoyez un Personnage ou Permanent ciblé avec un Coût de Main {5} ou moins dans la main de son propriétaire.",
+    "ILLUSTRATOR": "",
+    "LORE": "La terrible bête se recroquevilla en tremblant devant la force des Bravos.",
+    "FACTION": "Bravos",
+    "RARITY": "Rare",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Au-delà des portes",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_28/JPG/fr_FR/dec8b28e11809a6106b05f9b5e63c5a0.jpg",
+    "NUMBER": 28
+}

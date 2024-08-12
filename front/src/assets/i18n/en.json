@@ -1,0 +1,85 @@
+{
+    "GENERAL": {
+      "home": "Home",
+      "pokedex": "Pokédex",
+      "about": "About",
+      "all": "All",
+      "load_more": "Load More Pokémon",
+      "create": "Create",
+      "generation": "Generation",
+      "LANG": {
+        "fr": "Français",
+        "en": "English",
+        "es": "Español",
+        "de": "Deutsch",
+        "it": "Italiano",
+        "ja": "日本語",
+        "ko": "한국어",
+        "zh": "简体中文",            
+        "pt": "Português"
+      }
+    },
+    "POKELIST": {
+      "name": "List Name",
+      "génération": "List Generation",
+      "image": "Image",
+      "create_list": "Create a List",
+      "owned": "Owned",
+      "pokemon_name": "Name",
+      "sprite": "Sprite",
+      "type": "Type",
+      "note": "Note",
+      "gen": "Gen"
+    },
+    "POKEDEX": {
+      "0gen": "All Generations",
+      "1gen": "1st Generation",
+      "2gen": "2nd Generation",
+      "3gen": "3rd Generation",
+      "4gen": "4th Generation",
+      "5gen": "5th Generation",
+      "6gen": "6th Generation",
+      "7gen": "7th Generation",
+      "8gen": "8th Generation",
+      "9gen": "9th Generation"
+    },
+    "TYPE": {
+      "grass": "Grass",
+      "poison": "Poison",
+      "fire": "Fire",
+      "steel": "Steel",
+      "bug": "Bug",
+      "water": "Water",
+      "dark": "Dark",
+      "psychic": "Psychic",
+      "dragon": "Dragon",
+      "fairy": "Fairy",
+      "normal": "Normal",
+      "ground": "Ground",
+      "fighting": "Fighting",
+      "flying": "Flying",
+      "electric": "Electric",
+      "rock": "Rock",
+      "ice": "Ice",
+      "ghost": "Ghost"
+    },
+    "USER": {
+      "firstname": "First Name",
+      "lastname": "Last Name",
+      "email": "Email",
+      "username": "Username",
+      "password": "Password",
+      "signup": "Sign Up",
+      "signin": "Sign In",
+      "signoff": "Sign Off",
+      "profile": "Profile",
+      "my_pokedex": "My Pokédex"
+    },
+    "TOAST": {
+      "connexion_success": "Connection successful",
+      "connexion_error": "Connection failed",
+      "register_success": "Registration successful",
+      "register_error": "Registration failed"
+    }
+  }
+  

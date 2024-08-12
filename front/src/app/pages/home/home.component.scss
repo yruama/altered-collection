@@ -1,0 +1,17 @@
+.pokeball {
+	width: 200px;
+	height: 200px;
+	background-image: url("/assets/imgs/pokeball.png");
+	background-size: contain;
+	animation: spin 1.5s cubic-bezier(0, 0, 0.6, 1) infinite;
+}
+
+@keyframes spin {
+	0% {
+		transform: rotate(0deg);
+	}
+	90%,
+	100% {
+		transform: rotate(1080deg);
+	}
+}

@@ -1,0 +1,23 @@
+{
+    "NAME": "Skald Lyra",
+    "TYPE": "CHARACTER",
+    "SUB_TYPE": [
+        "Artiste"
+    ],
+    "ATTRIBUTES": {
+        "MOUTAIN": "0",
+        "FOREST": "3",
+        "OCEAN": "2",
+        "HAND_COST": "2",
+        "RESERVE_COST": "2"
+    },
+    "EFECTS": "{H} Vous pouvez défausser une carte de votre Réserve pour [Ravitailler]. (Mettez la première carte de votre deck en Réserve.)",
+    "ILLUSTRATOR": "",
+    "LORE": "Au bout du compte, nous sommes tous façonnés d'histoires.",
+    "FACTION": "Yzmir",
+    "RARITY": "Rare",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Au-delà des portes",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_08/JPG/fr_FR/4d1fffea3fcc974bec7c47c88568947a.jpg",
+    "NUMBER": 8
+}

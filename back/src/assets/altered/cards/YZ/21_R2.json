@@ -1,0 +1,23 @@
+{
+    "NAME": "Zou !",
+    "TYPE": "SPELL",
+    "SUB_TYPE": [
+        "Interférence"
+    ],
+    "ATTRIBUTES": {
+        "MOUTAIN": "",
+        "FOREST": "",
+        "OCEAN": "",
+        "HAND_COST": "2",
+        "RESERVE_COST": "4"
+    },
+    "EFECTS": "Envoyez en Réserve un Personnage ciblé de Coût de Main {3} ou moins.",
+    "ILLUSTRATOR": "",
+    "LORE": "Il est temps de dire au revoir au Kansas.",
+    "FACTION": "Lyra",
+    "RARITY": "Rare",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Au-delà des portes",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_21/JPG/fr_FR/cd6e33f8ff8dc2a79a96d497a1eb4a24.jpg",
+    "NUMBER": 21
+}

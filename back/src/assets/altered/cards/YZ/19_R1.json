@@ -1,0 +1,23 @@
+{
+    "NAME": "Entraînement Magique",
+    "TYPE": "SPELL",
+    "SUB_TYPE": [
+        "Conjuration"
+    ],
+    "ATTRIBUTES": {
+        "MOUTAIN": "",
+        "FOREST": "",
+        "OCEAN": "",
+        "HAND_COST": "1",
+        "RESERVE_COST": "2"
+    },
+    "EFECTS": "Piochez une carte.",
+    "ILLUSTRATOR": "",
+    "LORE": "Sans pratique, le don d'Altération n'est rien.",
+    "FACTION": "Yzmir",
+    "RARITY": "Rare",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Au-delà des portes",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_19/JPG/fr_FR/71bd2a69a49f9f7c766965ab93499690.jpg",
+    "NUMBER": 19
+}

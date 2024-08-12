@@ -1,0 +1,85 @@
+{
+    "GENERAL": {
+      "home": "Início",
+      "pokedex": "Pokédex",
+      "about": "Sobre",
+      "all": "Todos",
+      "load_more": "Carregar mais Pokémon",
+      "create": "Criar",
+      "generation": "Geração",
+      "LANG": {
+        "fr": "Français",
+        "en": "English",
+        "es": "Español",
+        "de": "Deutsch",
+        "it": "Italiano",
+        "ja": "日本語",
+        "ko": "한국어",
+        "zh": "简体中文",            
+        "pt": "Português"
+      }
+    },
+    "POKELIST": {
+      "name": "Nome da lista",
+      "génération": "Geração da lista",
+      "image": "Imagem",
+      "create_list": "Criar uma lista",
+      "owned": "Possuídos",
+      "pokemon_name": "Nome",
+      "sprite": "Sprite",
+      "type": "Tipo",
+      "note": "Nota",
+      "gen": "Gen"
+    },
+    "POKEDEX": {
+      "0gen": "Todas as gerações",
+      "1gen": "1ª Geração",
+      "2gen": "2ª Geração",
+      "3gen": "3ª Geração",
+      "4gen": "4ª Geração",
+      "5gen": "5ª Geração",
+      "6gen": "6ª Geração",
+      "7gen": "7ª Geração",
+      "8gen": "8ª Geração",
+      "9gen": "9ª Geração"
+    },
+    "TYPE": {
+      "grass": "Planta",
+      "poison": "Venenoso",
+      "fire": "Fogo",
+      "steel": "Aço",
+      "bug": "Inseto",
+      "water": "Água",
+      "dark": "Sombrio",
+      "psychic": "Psíquico",
+      "dragon": "Dragão",
+      "fairy": "Fada",
+      "normal": "Normal",
+      "ground": "Terra",
+      "fighting": "Lutador",
+      "flying": "Voador",
+      "electric": "Elétrico",
+      "rock": "Pedra",
+      "ice": "Gelo",
+      "ghost": "Fantasma"
+    },
+    "USER": {
+      "firstname": "Nome",
+      "lastname": "Sobrenome",
+      "email": "E-mail",
+      "username": "Nome de usuário",
+      "password": "Senha",
+      "signup": "Cadastrar-se",
+      "signin": "Entrar",
+      "signoff": "Sair",
+      "profile": "Perfil",
+      "my_pokedex": "Minha Pokédex"
+    },
+    "TOAST": {
+      "connexion_success": "Conexão bem-sucedida",
+      "connexion_error": "Erro de conexão",
+      "register_success": "Cadastro bem-sucedido",
+      "register_error": "Erro ao cadastrar"
+    }
+}
+  

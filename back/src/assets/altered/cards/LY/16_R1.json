@@ -1,0 +1,23 @@
+{
+    "NAME": "Chroniqueuse Lyra",
+    "TYPE": "CHARACTER",
+    "SUB_TYPE": [
+        "Artiste"
+    ],
+    "ATTRIBUTES": {
+        "MOUTAIN": "0",
+        "FOREST": "4",
+        "OCEAN": "4",
+        "HAND_COST": "3",
+        "RESERVE_COST": "3"
+    },
+    "EFECTS": "{D} : [Ravitaillez]. (Mettez la première carte de votre deck en Réserve. Défaussez-moi de la Réserve pour ça.)",
+    "ILLUSTRATOR": "",
+    "LORE": "Eidolon ou humain, nous sommes tous façonnés par les histoires. Ce sont elles qui font de nous qui nous sommes.",
+    "FACTION": "Lyra",
+    "RARITY": "Rare",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Au-delà des portes",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_LY_16/JPG/fr_FR/9562d981907250a51d2ba3e675b01ff5.jpg",
+    "NUMBER": 16
+}

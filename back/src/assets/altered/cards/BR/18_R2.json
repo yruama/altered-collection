@@ -1,0 +1,23 @@
+{
+    "NAME": "Sun Wukong",
+    "TYPE": "CHARACTER",
+    "SUB_TYPE": [
+        "Divinité"
+    ],
+    "ATTRIBUTES": {
+        "MOUTAIN": "4",
+        "FOREST": "2",
+        "OCEAN": "2",
+        "HAND_COST": "3",
+        "RESERVE_COST": "4"
+    },
+    "EFECTS": "{R} Un Personnage ciblé gagne 2 boosts.",
+    "ILLUSTRATOR": "",
+    "LORE": "Toujours trompeur, à jamais rebelle.",
+    "FACTION": "Muna",
+    "RARITY": "Rare",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Au-delà des portes",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_18/JPG/fr_FR/c9cee4c3fb1510ab784c43d8cbb33ce2.jpg",
+    "NUMBER": 18
+}

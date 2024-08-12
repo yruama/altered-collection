@@ -1,0 +1,15 @@
+{
+    "NAME": "Arjun & Spike",
+    "TYPE": "HERO",
+    "SUB_TYPE": [],
+    "ATTRIBUTES": {},
+    "EFECTS": "{T}, Défaussez une carte de votre Réserve : le prochain Personnage de Coût de Main {3} ou moins que vous jouez ce tour gagne [[Ancré]]. (Au Repos, il ne va pas en Réserve et il perd Ancré.)",
+    "ILLUSTRATOR": "",
+    "LORE": "C'est en aérant la terre que l'on permet aux racines de devenir fortes et endurantes.",
+    "FACTION": "Muna",
+    "RARITY": "Commun",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Au-delà des portes",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_MU_02/JPG/fr_FR/84b87bc95677300fc5e94991ed4ea163.jpg",
+    "NUMBER": 2
+}

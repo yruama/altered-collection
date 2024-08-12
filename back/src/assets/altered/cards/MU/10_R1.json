@@ -1,0 +1,23 @@
+{
+    "NAME": "Yong-Su, Verdant Weaver",
+    "TYPE": "CHARACTER",
+    "SUB_TYPE": [
+        "Druid"
+    ],
+    "ATTRIBUTES": {
+        "MOUTAIN": "2",
+        "FOREST": "2",
+        "OCEAN": "2",
+        "HAND_COST": "2",
+        "RESERVE_COST": "2"
+    },
+    "EFECTS": "{J} If you control two or more Plants, I gain 2 boosts[]. (Cards in Reserve are not controlled. A boost is a +1/+1/+1 counter. Remove it when it leaves the Expedition zone.)",
+    "ILLUSTRATOR": "",
+    "LORE": "Green is good.",
+    "FACTION": "Muna",
+    "RARITY": "Rare",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Beyond the Gates",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_MU_10/JPG/en_US/16e3f1d3e098b19e4402f50ef7970cef.jpg",
+    "NUMBER": 10
+}

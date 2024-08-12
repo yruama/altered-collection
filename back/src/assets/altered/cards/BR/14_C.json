@@ -1,0 +1,23 @@
+{
+    "NAME": "Avant-Garde Bravos",
+    "TYPE": "CHARACTER",
+    "SUB_TYPE": [
+        "Aventurier"
+    ],
+    "ATTRIBUTES": {
+        "MOUTAIN": "2",
+        "FOREST": "4",
+        "OCEAN": "2",
+        "HAND_COST": "3",
+        "RESERVE_COST": "3"
+    },
+    "EFECTS": "{J} Vous pouvez faire perdre [[Fugace]] à un autre Personnage ciblé.",
+    "ILLUSTRATOR": "",
+    "LORE": "« Nous serons la flèche qui percera le voile de l’inconnu, le flambeau qui bannira les brumes de l’ignorance ! »",
+    "FACTION": "Bravos",
+    "RARITY": "Commun",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Au-delà des portes",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_BR_14/JPG/fr_FR/a6f961cdf8adbfdeb9ce05041b33f1a5.jpg",
+    "NUMBER": 14
+}

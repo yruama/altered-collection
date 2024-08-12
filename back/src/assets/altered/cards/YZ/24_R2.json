@@ -1,0 +1,23 @@
+{
+    "NAME": "Portail de Bannissement",
+    "TYPE": "SPELL",
+    "SUB_TYPE": [
+        "Interférence"
+    ],
+    "ATTRIBUTES": {
+        "MOUTAIN": "",
+        "FOREST": "",
+        "OCEAN": "",
+        "HAND_COST": "4",
+        "RESERVE_COST": "4"
+    },
+    "EFECTS": "[[Fugace]]. (Envoyez-moi à la Défausse plutôt qu'en Réserve une fois mon effet résolu.)  Défaussez un Personnage ou Permanent ciblé.",
+    "ILLUSTRATOR": "",
+    "LORE": "« Laissez-moi vous montrer la porte. »",
+    "FACTION": "Ordis",
+    "RARITY": "Rare",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Au-delà des portes",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_24/JPG/fr_FR/7b3b137e7891bd45939bed1e2c760bf2.jpg",
+    "NUMBER": 24
+}

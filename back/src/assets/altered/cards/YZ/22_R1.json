@@ -1,0 +1,23 @@
+{
+    "NAME": "Spy Craft",
+    "TYPE": "SPELL",
+    "SUB_TYPE": [
+        "Disruption"
+    ],
+    "ATTRIBUTES": {
+        "MOUTAIN": "",
+        "FOREST": "",
+        "OCEAN": "",
+        "HAND_COST": "2",
+        "RESERVE_COST": "3"
+    },
+    "EFECTS": "[Sabotage], then [Resupply]. (Discard up to one target card from a Reserve. Put the top card of your deck in Reserve.)",
+    "ILLUSTRATOR": "",
+    "LORE": "This message will self-destruct in five seconds.",
+    "FACTION": "Yzmir",
+    "RARITY": "Rare",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Beyond the Gates",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_22/JPG/en_US/0ceabb8238258124c49c65b63711ef3a.jpg",
+    "NUMBER": 22
+}

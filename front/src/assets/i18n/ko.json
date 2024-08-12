@@ -1,0 +1,85 @@
+{
+    "GENERAL": {
+      "home": "홈",
+      "pokedex": "포켓몬 도감",
+      "about": "정보",
+      "all": "전체",
+      "load_more": "더 많은 포켓몬 불러오기",
+      "create": "생성",
+      "generation": "세대",
+      "LANG": {
+        "fr": "Français",
+        "en": "English",
+        "es": "Español",
+        "de": "Deutsch",
+        "it": "Italiano",
+        "ja": "日本語",
+        "ko": "한국어",
+        "zh": "简体中文",            
+        "pt": "Português"
+      }
+    },
+    "POKELIST": {
+      "name": "리스트 이름",
+      "génération": "리스트 세대",
+      "image": "이미지",
+      "create_list": "리스트 생성",
+      "owned": "소유한 포켓몬",
+      "pokemon_name": "이름",
+      "sprite": "스프라이트",
+      "type": "타입",
+      "note": "노트",
+      "gen": "세대"
+    },
+    "POKEDEX": {
+      "0gen": "모든 세대",
+      "1gen": "1세대",
+      "2gen": "2세대",
+      "3gen": "3세대",
+      "4gen": "4세대",
+      "5gen": "5세대",
+      "6gen": "6세대",
+      "7gen": "7세대",
+      "8gen": "8세대",
+      "9gen": "9세대"
+    },
+    "TYPE": {
+      "grass": "풀",
+      "poison": "독",
+      "fire": "불",
+      "steel": "강철",
+      "bug": "벌레",
+      "water": "물",
+      "dark": "악",
+      "psychic": "에스퍼",
+      "dragon": "드래곤",
+      "fairy": "요정",
+      "normal": "노멀",
+      "ground": "땅",
+      "fighting": "격투",
+      "flying": "비행",
+      "electric": "전기",
+      "rock": "바위",
+      "ice": "얼음",
+      "ghost": "고스트"
+    },
+    "USER": {
+      "firstname": "이름",
+      "lastname": "성",
+      "email": "이메일",
+      "username": "사용자 이름",
+      "password": "비밀번호",
+      "signup": "가입",
+      "signin": "로그인",
+      "signoff": "로그아웃",
+      "profile": "프로필",
+      "my_pokedex": "내 포켓몬 도감"
+    },
+    "TOAST": {
+      "connexion_success": "연결 성공",
+      "connexion_error": "연결 오류",
+      "register_success": "가입 성공",
+      "register_error": "가입 오류"
+    }
+  }
+  

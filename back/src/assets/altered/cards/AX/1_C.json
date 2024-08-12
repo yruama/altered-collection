@@ -1,0 +1,15 @@
+{
+    "NAME": "Sierra & Oddball",
+    "TYPE": "HERO",
+    "SUB_TYPE": [],
+    "ATTRIBUTES": {},
+    "EFECTS": "When you play a Permanent with Hand Cost {3} or more — You may exhaust me ({T}) to create a [Brassbug 2/2/2] Robot token in target Expedition.",
+    "ILLUSTRATOR": "",
+    "LORE": "\"I don't know if there's a better reward than seeing something you've built come to life.\"",
+    "FACTION": "Axiom",
+    "RARITY": "Common",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Beyond the Gates",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_AX_01/JPG/en_US/e9cf4439f25391d9fc21300cce1bbe44.jpg",
+    "NUMBER": 1
+}

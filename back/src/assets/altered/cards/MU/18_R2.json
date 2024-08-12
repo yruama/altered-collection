@@ -1,0 +1,23 @@
+{
+    "NAME": "Parvati",
+    "TYPE": "CHARACTER",
+    "SUB_TYPE": [
+        "Divinité"
+    ],
+    "ATTRIBUTES": {
+        "MOUTAIN": "0",
+        "FOREST": "3",
+        "OCEAN": "3",
+        "HAND_COST": "4",
+        "RESERVE_COST": "3"
+    },
+    "EFECTS": "{J} Un Personnage ciblé gagne [[Ancré]]. (Au Repos, il ne va pas en Réserve et il perd Ancré.)",
+    "ILLUSTRATOR": "",
+    "LORE": "Ce n'est que dans l'harmonie que le monde peut prospérer.",
+    "FACTION": "Bravos",
+    "RARITY": "Rare",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Au-delà des portes",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_MU_18/JPG/fr_FR/e1120cd67dbbc78d157c5c5c43fc5e68.jpg",
+    "NUMBER": 18
+}

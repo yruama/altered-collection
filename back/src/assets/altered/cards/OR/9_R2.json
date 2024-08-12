@@ -1,0 +1,24 @@
+{
+    "NAME": "Le Roi-Grenouille",
+    "TYPE": "CHARACTER",
+    "SUB_TYPE": [
+        "Bureaucrate",
+        "Noble"
+    ],
+    "ATTRIBUTES": {
+        "MOUTAIN": "0",
+        "FOREST": "3",
+        "OCEAN": "3",
+        "HAND_COST": "2",
+        "RESERVE_COST": "2"
+    },
+    "EFECTS": "{D} : Le prochain Permanent que vous jouez ce tour coûte {1} de moins. (Défaussez-moi de la Réserve pour ça.)",
+    "ILLUSTRATOR": "",
+    "LORE": "Fort heureusement, il ne scelle pas ses contrats par un baiser.",
+    "FACTION": "Axiom",
+    "RARITY": "Rare",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Au-delà des portes",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_OR_09/JPG/fr_FR/2f4f04ac3f41c67e478deda69607f74d.jpg",
+    "NUMBER": 9
+}

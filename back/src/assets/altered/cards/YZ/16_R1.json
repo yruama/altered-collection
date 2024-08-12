@@ -1,0 +1,23 @@
+{
+    "NAME": "Dorothy Gale",
+    "TYPE": "CHARACTER",
+    "SUB_TYPE": [
+        "Citoyen"
+    ],
+    "ATTRIBUTES": {
+        "MOUTAIN": "2",
+        "FOREST": "3",
+        "OCEAN": "2",
+        "HAND_COST": "5",
+        "RESERVE_COST": "5"
+    },
+    "EFECTS": "{J} Vous pouvez envoyer un Personnage ciblé en Réserve.",
+    "ILLUSTRATOR": "",
+    "LORE": "« J'ai l'impression que nous ne sommes plus au Kansas. »",
+    "FACTION": "Yzmir",
+    "RARITY": "Rare",
+    "CARD_TYPE": "Booster",
+    "SET": "Core set - Au-delà des portes",
+    "IMAGE": "https://altered-prod-eu.s3.amazonaws.com/Art/CORE/CARDS/ALT_CORE_B_YZ_16/JPG/fr_FR/cf82fdc7820625b0192b3949060d170b.jpg",
+    "NUMBER": 16
+}

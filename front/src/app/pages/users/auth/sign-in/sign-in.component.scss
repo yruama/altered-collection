@@ -1,0 +1,74 @@
+.blocs {
+	position: relative;
+
+	.p-fieldset {
+		height: 300px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+
+		z-index: 1;
+
+		img {
+			bottom: 8px;
+			position: absolute;
+			z-index: 0;
+			max-width: 100px;
+			right: 8px;
+		}
+	}
+
+	.p-toggleable-content {
+		width: 100%;
+	}
+
+	.p-fieldset-content {
+		width: 100%;
+	}
+
+	.p-password {
+		width: 100%;
+	}
+
+	.input {
+		width: 100%;
+		margin: 1rem 0;
+
+		input {
+			width: 100%;
+		}
+	}
+
+	.forms {
+		margin-top: -5rem;
+		z-index: 9;
+	}
+
+	.signup-text {
+		margin-top: -5rem;
+		z-index: 9;
+	}
+
+	.signin-button {
+		position: absolute;
+		right: 28px;
+		bottom: 16px;
+	}
+
+	.signup-button {
+		position: absolute;
+		bottom: 16px;
+	}
+}
+
+.signin {
+	legend {
+		text-align: right;
+	}
+
+	img {
+		left: 8px !important;
+		transform: scaleX(-1);
+	}
+}

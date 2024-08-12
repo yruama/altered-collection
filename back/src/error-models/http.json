@@ -1,0 +1,78 @@
+{
+	"CLIENT_ERROR": {
+		"bad_request": {
+			"message": "Bad request",
+			"description": "The request cannot be fulfilled due to bad syntax",
+			"code": 400
+		},
+		"unauthorized": {
+			"message": "Unauthorized",
+			"description": "Authentication is required and has failed or has not yet been provided",
+			"code": 401
+		},
+		"forbidden": {
+			"message": "Forbidden",
+			"description": "You don't have permission to access the requested resource",
+			"code": 403
+		},
+		"not_found": {
+			"message": "Not found",
+			"description": "The requested resource could not be found but may be available again in the future",
+			"code": 404
+		},
+		"method_not_allowed": {
+			"message": "Method not allowed",
+			"description": "A request was made using a request method not supported by that resource",
+			"code": 405
+		},
+		"request_timeout": {
+			"message": "Request timeout",
+			"description": "The server timed out waiting for the request",
+			"code": 408
+		}
+	},
+	"SERVER_ERROR": {
+		"internal_server_error": {
+			"message": "Internal server error",
+			"description": "The server encountered an unexpected condition which prevented it from fulfilling the request",
+			"code": 500
+		},
+		"not_implemented": {
+			"message": "Not implemented",
+			"description": "The server does not support the functionality required to fulfill the request",
+			"code": 501
+		},
+		"bad_gateway": {
+			"message": "Bad gateway",
+			"description": "The server, while acting as a gateway or proxy, received an invalid response from the upstream server it accessed in attempting to fulfill the request",
+			"code": 502
+		},
+		"service_unavailable": {
+			"message": "Service unavailable",
+			"description": "The server is currently unable to handle the request due to a temporary overloading or maintenance of the server",
+			"code": 503
+		}
+	},
+	"SUCCESS": {
+		"ok": {
+			"message": "OK",
+			"description": "The request has succeeded",
+			"code": 200
+		},
+		"created": {
+			"message": "Created",
+			"description": "The request has been fulfilled and resulted in a new resource being created",
+			"code": 201
+		},
+		"accepted": {
+			"message": "Accepted",
+			"description": "The request has been accepted for processing, but the processing has not been completed",
+			"code": 202
+		},
+		"no_content": {
+			"message": "No content",
+			"description": "The server successfully processed the request, but is not returning any content",
+			"code": 204
+		}
+	}
+}
