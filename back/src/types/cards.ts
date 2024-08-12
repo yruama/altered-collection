@@ -4,7 +4,7 @@ export interface Cards {
     IMAGE: string,
     SUB_TYPE: string[],
     TYPE: string,
-    STATISTICS: string,
+    STATISTICS: Statistics,
     FACTION: number,
     NAME: string,
     RARITY: number,

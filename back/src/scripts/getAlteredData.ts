@@ -26,12 +26,17 @@ async function start() {
                 FACTION: TransformFactionToNumber(card.mainFaction.reference),
                 NAME: card.name,
                 RARITY: TransformRarityToNumber(card.rarity.reference),
-                EXTENSION: 0
+                EXTENSION: GetExtension(card.reference)
             }
     
             coreCards.add(cardToAdd);
         }
     }
+}
+
+function GetExtension(reference: string) {
+    if (reference.includes('COREKS')) return 0;
+    else return 1;
 }
 
 function GetStatistics(data: any) {
