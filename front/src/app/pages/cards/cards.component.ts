@@ -19,31 +19,41 @@ export class CardsComponent implements OnInit {
   sets: any = [];
   pagination = {
     offset: 0,
-    limit: 25,
+    limit: 0,
     max: 0
   }
   
   cards: Cards[] = [];
   env = environment;
 
+  buttonLoading = false;
+
+
   constructor(private CardsService: CardsService,
               private _cardService: CardsService) {}
 
   ngOnInit() {
-   this.getCards();
+    this.setPagination(0, 50, 1041);
   }
 
   getCards() {
     this._cardService.getCards(this.pagination.offset, this.pagination.limit, this.pagination.max).subscribe({
       next: (data: any) => {
-        console.log("Data TEST : ", data)
-        this.cards = data;
+        this.cards = [... this.cards, ...data];
+        console.log("getCards : ", this.cards)
       }, error: (err) => {
-        console.log('err : ', err)
+        console.log('getCards err : ', err)
       }, complete: () => {
-        console.log('complete : ')
+        console.log('getCards complete.')
+        this.buttonLoading = false;
       }
     })
+  }
+
+  loadMore() {
+    if (this.buttonLoading) return;
+    this.buttonLoading = true;
+    this.setPagination(this.pagination.offset + 50, this.pagination.limit, this.pagination.max);
   }
 
   setPagination(offset: number, limit: number, max: number) {

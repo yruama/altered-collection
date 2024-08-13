@@ -18,7 +18,8 @@ async function start() {
     for (const card of response.data['hydra:member']) {
         if (card) {
             const cardToAdd: Cards = {
-                ID: card.collectorNumberFormatted,
+                ID: card.reference,
+                FORMATED_ID: card.collectorNumberFormatted,
                 IMAGE: card.imagePath,
                 SUB_TYPE: card.cardSubTypes.map((subtype: any) => subtype.reference),
                 TYPE: card.cardType.reference,

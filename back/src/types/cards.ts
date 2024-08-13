@@ -1,6 +1,7 @@
 export interface Cards {
     UUID?: string,
     ID: string,
+    FORMATED_ID: string,
     IMAGE: string,
     SUB_TYPE: string[],
     TYPE: string,

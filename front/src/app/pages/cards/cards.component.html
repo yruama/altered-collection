@@ -1,7 +1,22 @@
 Liste cartes : <br>
 
 @for (card of cards; track card.UUID) {
-    <img [src]="card.IMAGE" alt="">
+   {{ card.ID }} <br>
 } @empty {
     <li>There are no items.</li>
 }
+
+<div class="footer">
+
+    <p-button
+        class="mt-3 footer__load-more"
+        [loading]="buttonLoading"
+        label="{{ 'GENERAL.load_more' | translate }}"
+        (click)="loadMore()"
+    ></p-button>
+
+    <div class="footer__pagination">
+        {{ pagination.offset + 1 }} - {{ (pagination.offset + pagination.limit) < pagination.max ? (pagination.offset + pagination.limit) : pagination.max }} <span class="pagination__total">{{ 'GENERAL.on' | translate }} {{ pagination.max }}</span>
+    </div>
+    
+</div>

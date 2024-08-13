@@ -9,6 +9,7 @@ export default class CoreCards {
         try {
 			const cardCreated = await knex("CARDS").insert({
                 ID: card.ID,
+                FORMATED_ID: card.FORMATED_ID,
                 IMAGE: JSON.stringify(card.IMAGE),
                 SUB_TYPE: JSON.stringify(card.SUB_TYPE),
                 TYPE: card.TYPE,

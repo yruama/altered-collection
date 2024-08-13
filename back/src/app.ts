@@ -53,6 +53,7 @@ app.register(blippPlugin);
 app.register(import("./routes/user.routes") as any, { prefix: "api/v1/user" });
 app.register(import("./routes/test.routes") as any, { prefix: "api/v1/test" });
 app.register(import("./routes/cards.routes") as any, { prefix: "api/v1/cards" });
+app.register(import("./routes/collections.routes") as any, { prefix: "api/v1/collections" });
 app.register(cors, {
 	// put your options here
 });

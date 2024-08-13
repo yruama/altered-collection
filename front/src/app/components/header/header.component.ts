@@ -51,6 +51,13 @@ export class HeaderComponent {
 		command: async () => { await this.Router.navigate(['/decks']); },
 		key: 'decks'
 	}, {
+		name: this._translate.instant('GENERAL.collections'),
+		isHovered: false,
+		isActive: false,
+		icon: 'fa-solid fa-star',
+		command: async () => { await this.Router.navigate(['/collections']); },
+		key: 'collections'
+	}, {
 		name: this._translate.instant(localStorage.getItem('token') ? 'USER.profile' : 'USER.signin'),
 		isHovered: false,
 		isActive: false,
@@ -127,6 +134,8 @@ export class HeaderComponent {
 
 				//On cherche un item à activer
 				const menuItem = this.menu.find((_item: MenuBloc) => url.includes(_item.key));
+				console.log("url : ", url)
+				console.log("MENUITEM : ", menuItem)
 				if (menuItem) menuItem.isActive = true;
 			}
 		  });

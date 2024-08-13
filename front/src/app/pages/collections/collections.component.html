@@ -1,0 +1,38 @@
+<button (click)="generateDoc()">générer document</button>
+
+<table>
+    <thead>
+        <tr>
+            <th scope="col">Faction</th>
+            <th scope="col">Nom</th>
+            <th scope="col">Rareté</th>
+            <th scope="col">Possession</th>
+            <!-- <th>img</th> -->
+        </tr>
+      </thead>
+      <tbody>
+        
+            @for (card of cards; track card.UUID) {
+            <tr>
+                <td>
+                    <img style="max-width: 25px;" [src]="env.assetsURL + '/factions/' + card.FACTION + '.webp'" alt="">
+                </td>
+                <td>
+                    {{ card.NAME }} 
+                </td>
+
+                <td>
+                    {{ card.RARITY }}
+                </td>
+                <td>
+                    {{ card.NUMBER }}
+                </td>
+                <!-- <td>
+                     {{card.ID}} <img style="max-width: 68px;" [src]="card.IMAGE" alt="">
+                </td> -->
+            </tr>
+             } @empty {
+                 <li>There are no items.</li>
+             }
+    </tbody>
+</table>

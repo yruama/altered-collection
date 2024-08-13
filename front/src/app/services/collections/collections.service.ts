@@ -1,53 +1,50 @@
 import { HttpClient, HttpHeaders } from "@angular/common/http";
+
+import { APIResult } from "src/app/types/utils.types";
 import { Injectable } from "@angular/core";
 import { Observable } from "rxjs";
 import { Pokelist } from "src/app/types/pokelist.types";
-import { APIResult } from "src/app/types/utils.types";
 import { environment } from "src/environments/environment";
 
 @Injectable({
 	providedIn: "root"
 })
-export class PokelistService {
+export class CollectionsService {
 	constructor(private readonly _http: HttpClient) {}
 
-	addPokeList(pokelist: Pokelist): Observable<APIResult> {
+	getCollections(): Observable<APIResult> {
 		const token = localStorage.getItem("token");
+		const language = navigator.language || 'en-GB';
 		const headers = new HttpHeaders({
+			'Accept-Language': language,
 			"Content-Type": "application/json",
 			Authorization: `Bearer ${token}`
 		});
 
-		return this._http.post<APIResult>(`${environment.apiURL}/pokelist`, { pokelist }, { headers });
+		return this._http.get<APIResult>(`${environment.apiURL}/collections/`, { headers });
 	}
 
-	getPokeLists(): Observable<APIResult> {
+	getOwnCollections(): Observable<APIResult> {
 		const token = localStorage.getItem("token");
+		const language = navigator.language || 'en-GB';
 		const headers = new HttpHeaders({
+			'Accept-Language': language,
 			"Content-Type": "application/json",
 			Authorization: `Bearer ${token}`
 		});
 
-		return this._http.get<APIResult>(`${environment.apiURL}/pokelist`, { headers });
+		return this._http.get<APIResult>(`${environment.apiURL}/collections/altered`, { headers });
 	}
 
-	getPokeList(id: string): Observable<APIResult> {
+	generateList(): Observable<APIResult> {
 		const token = localStorage.getItem("token");
+		const language = navigator.language || 'en-GB';
 		const headers = new HttpHeaders({
+			'Accept-Language': language,
 			"Content-Type": "application/json",
 			Authorization: `Bearer ${token}`
 		});
 
-		return this._http.get<APIResult>(`${environment.apiURL}/pokelist/${id}`, { headers });
-	}
-
-	deletePokeList(id: number): Observable<APIResult> {
-		const token = localStorage.getItem("token");
-		const headers = new HttpHeaders({
-			"Content-Type": "application/json",
-			Authorization: `Bearer ${token}`
-		});
-
-		return this._http.delete<APIResult>(`${environment.apiURL}/pokelist/${id}`, { headers });
+		return this._http.get<APIResult>(`${environment.apiURL}/collections/generate`, { headers });
 	}
 }
