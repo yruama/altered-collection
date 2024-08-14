@@ -1,10 +1,13 @@
 Liste cartes : <br>
 
-@for (card of cards; track card.UUID) {
-   {{ card.ID }} <br>
-} @empty {
-    <li>There are no items.</li>
-}
+<div class="cards">
+    @for (card of cards; track card.UUID) {
+        <img [src]="card.IMAGE.fr" alt="">
+     } @empty {
+         <li>There are no items.</li>
+     }
+</div>
+
 
 <div class="footer">
 
@@ -16,7 +19,7 @@ Liste cartes : <br>
     ></p-button>
 
     <div class="footer__pagination">
-        {{ pagination.offset + 1 }} - {{ (pagination.offset + pagination.limit) < pagination.max ? (pagination.offset + pagination.limit) : pagination.max }} <span class="pagination__total">{{ 'GENERAL.on' | translate }} {{ pagination.max }}</span>
+        {{ filter.pagination.offset + 1 }} - {{ (filter.pagination.offset + filter.pagination.limit) < filter.pagination.max ? (filter.pagination.offset + filter.pagination.limit) : filter.pagination.max }} <span class="pagination__total">{{ 'GENERAL.on' | translate }} {{ filter.pagination.max }}</span>
     </div>
     
 </div>

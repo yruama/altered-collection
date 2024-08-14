@@ -9,10 +9,12 @@ export default class CoreCollections {
     
     async getCollections() {
         try {
-            return await knex('COLLECTIONS')
-            .join('CARDS', 'COLLECTIONS.ID', '=', 'CARDS.ID')
-            .select('COLLECTIONS.*', 'CARDS.*')
-            .orderBy('CARDS.FORMATED_ID');
+            // return await knex('COLLECTIONS')
+            // .join('CARDS', 'COLLECTIONS.ID', '=', 'CARDS.ID')
+            // .select('COLLECTIONS.*', 'CARDS.*')
+            // .orderBy('CARDS.FORMATED_ID');
+
+            return await knex('COLLECTIONS');
 
         } catch (error) {
             console.log("error : ", error)

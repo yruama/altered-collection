@@ -53,6 +53,10 @@ app.register(blippPlugin);
 app.register(import("./routes/user.routes") as any, { prefix: "api/v1/user" });
 app.register(import("./routes/test.routes") as any, { prefix: "api/v1/test" });
 app.register(import("./routes/cards.routes") as any, { prefix: "api/v1/cards" });
+app.register(import("./routes/types.routes") as any, { prefix: "api/v1/types" });
+app.register(import("./routes/rarity.routes") as any, { prefix: "api/v1/rarity" });
+app.register(import("./routes/factions.routes") as any, { prefix: "api/v1/factions" });
+app.register(import("./routes/subtypes.routes") as any, { prefix: "api/v1/subtypes" });
 app.register(import("./routes/collections.routes") as any, { prefix: "api/v1/collections" });
 app.register(cors, {
 	// put your options here
@@ -64,7 +68,7 @@ app.register(cors, {
 		setGlobals();
 		consoleErrorWithline();
 		await app.listen({ port: 3000 });
-		//start();
+		 //start();
 		// app.blipp();
 	} catch (err) {
 		console.error("Error on main : ", err);

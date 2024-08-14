@@ -13,7 +13,18 @@ export default class ClassCards {
 		try {
 			if (max && offset + limit > max) limit = max - offset;
 
-            let cards: Cards[] = await this.coreCards.getWithPagination(offset, limit) as Cards[];
+            let cards: Cards[] = await this.coreCards.getWithPagination(offset, limit);
+           
+			return cards;
+		} catch (error) {
+			console.error("[CORE_CARDS.getWithPagination] : ", error);
+			throw error;
+		}
+	}
+
+	async getWithFiler(filter: any) {
+		try {
+            let cards: Cards[] = await this.coreCards.getWithFilter(filter);
            
 			return cards;
 		} catch (error) {

@@ -1,0 +1,74 @@
+{
+    "CREATE": {
+        "CANNOT_ADD": {
+            "message": "Cannot add Type",
+            "code": 400,
+            "description": "You're not able to add a Type at the moment"
+        },
+        "ALREADY_EXISTS": {
+            "message": "Pokedex already exists",
+            "code": 500,
+            "description": "The Type you are trying to add already exists"
+        },
+        "PERMISSION_DENIED": {
+            "message": "Permission denied",
+            "code": 403,
+            "description": "You do not have permission to add a Type"
+        }
+    },
+    "READ": {
+        "NOT_FOUND": {
+            "single": {
+                "message": "Pokedex not found",
+                "code": 404,
+                "description": "The Type you are looking for does not exist"
+            },
+            "multiple": {
+                "message": "Pokedex not found",
+                "code": 404,
+                "description": "The Type you are looking for does not exist"
+            }
+        },
+        "NOT_REACHABLE": {
+            "message": "Pokedex not reachable",
+            "code": 500,
+            "description": "The Type is not available at the moment"
+        },
+        "PERMISSION_DENIED": {
+            "message": "Permission denied",
+            "code": 403,
+            "description": "You do not have permission to access the Type"
+        }
+    },
+    "UPDATE": {
+        "CANNOT_UPDATE": {
+            "message": "Cannot update Type",
+            "code": 400,
+            "description": "You're not able to update a Type at the moment"
+        },
+        "PERMISSION_DENIED": {
+            "message": "Permission denied",
+            "code": 403,
+            "description": "You do not have permission to update a Type"
+        }
+    },
+    "DELETE": {
+        "CANNOT_DELETE": {
+            "message": "Cannot delete Type",
+            "code": 400,
+            "description": "The Type you are trying to delete cannot be deleted"
+        },
+        "PERMISSION_DENIED": {
+            "message": "Permission denied",
+            "code": 403,
+            "description": "You do not have permission to delete a Type"
+        }
+    },
+    "MISC": {
+        "WENT_WRONG": {
+            "message": "Something went wrong",
+            "code": 500,
+            "description": "Something went wrong while processing your request"
+        }
+    }
+}

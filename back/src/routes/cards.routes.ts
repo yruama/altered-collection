@@ -23,6 +23,18 @@ async function routes(fastify: FastifyInstanceDecorated, options: RequestRouteOp
 			await replyError(error, reply);
 		}
 	});
+
+	fastify.post("/", async (request: RequestType, reply: FastifyReply) => {
+		try {
+
+			const language = request.headers['accept-language'] || 'en-GB';
+
+			const cards = await cardsClass.getWithFiler(request.body.filter);
+			await replySuccess(cards, reply, "post");
+		} catch (error) {
+			await replyError(error, reply);
+		}
+	});
 }
 
 export default routes;

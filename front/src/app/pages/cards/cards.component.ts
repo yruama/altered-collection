@@ -17,16 +17,21 @@ interface PokemonWithCards extends Pokemon {
 })
 export class CardsComponent implements OnInit {
   sets: any = [];
-  pagination = {
-    offset: 0,
-    limit: 0,
-    max: 0
-  }
   
   cards: Cards[] = [];
   env = environment;
 
   buttonLoading = false;
+
+  filter = {
+    pagination: {
+      offset: 0,
+      limit: 200,
+      max: 1040
+    },
+    faction: [],
+    rarity: []
+  }
 
 
   constructor(private CardsService: CardsService,
@@ -37,7 +42,7 @@ export class CardsComponent implements OnInit {
   }
 
   getCards() {
-    this._cardService.getCards(this.pagination.offset, this.pagination.limit, this.pagination.max).subscribe({
+    this._cardService.getCardsWithFilter(this.filter).subscribe({
       next: (data: any) => {
         this.cards = [... this.cards, ...data];
         console.log("getCards : ", this.cards)
@@ -53,11 +58,11 @@ export class CardsComponent implements OnInit {
   loadMore() {
     if (this.buttonLoading) return;
     this.buttonLoading = true;
-    this.setPagination(this.pagination.offset + 50, this.pagination.limit, this.pagination.max);
+    this.setPagination(this.filter.pagination.offset + 50, this.filter.pagination.limit, this.filter.pagination.max);
   }
 
   setPagination(offset: number, limit: number, max: number) {
-    this.pagination = {
+    this.filter.pagination = {
       offset: offset,
       limit: limit,
       max: max

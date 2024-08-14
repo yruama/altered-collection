@@ -1,0 +1,36 @@
+td, th {
+    border: 1px solid rgba(255, 255, 255, 0.286);
+    padding: 0 1rem;
+
+    
+}
+
+.no-card-exist {
+    background-color: grey;
+}
+
+.all-card {
+    background-color: green;
+}
+
+.no-card {
+    background-color: red;
+}
+
+.has-card {
+    background-color: orange;
+}
+
+.radio {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+}
+
+.normal {
+    background-color: orange;
+}
+
+.high {
+    background-color: red;
+}

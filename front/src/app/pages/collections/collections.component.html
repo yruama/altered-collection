@@ -5,31 +5,69 @@
         <tr>
             <th scope="col">Faction</th>
             <th scope="col">Nom</th>
-            <th scope="col">Rareté</th>
-            <th scope="col">Possession</th>
+            <th scope="col" colspan="2">Rareté <br> C / R|T</th>
+            <th scope="col" colspan="2">Priorité <br> C / R|T</th>
             <!-- <th>img</th> -->
         </tr>
       </thead>
       <tbody>
         
-            @for (card of cards; track card.UUID) {
+            @for (card of finalCards; track card.NO_CARD) {
             <tr>
-                <td>
-                    <img style="max-width: 25px;" [src]="env.assetsURL + '/factions/' + card.FACTION + '.webp'" alt="">
+                <td style="text-align: center;">
+                    <img style="max-width: 25px;" [src]="env.assetsURL + '/factions/' + card.CARD[0].FACTION + '.webp'" alt="">
                 </td>
                 <td>
-                    {{ card.NAME }} 
+                    {{ card.CARD[0].NAME }} 
                 </td>
 
-                <td>
-                    {{ card.RARITY }}
-                </td>
-                <td>
-                    {{ card.NUMBER }}
-                </td>
-                <!-- <td>
-                     {{card.ID}} <img style="max-width: 68px;" [src]="card.IMAGE" alt="">
-                </td> -->
+                @if (card.CARD.length > 1) {
+                    <td [class]="card.CARD[0].NUMBER >= 3 ? 'all-card' : card.CARD[0].NUMBER === 0 ? 'no-card' : 'has-card' ">
+                        {{ card.CARD[0].NUMBER }}
+                    </td>
+                    <td [class]="card.CARD[1].NUMBER >= 3 ? 'all-card' : card.CARD[1].NUMBER === 0 ? 'no-card' : 'has-card' ">
+                        {{ card.CARD[1].NUMBER }}
+                    </td>
+                } @else {
+                    <td class="no-card-exist">
+                       
+                    </td>
+                    <td [class]="card.CARD[0].NUMBER >= 3 ? 'all-card' : card.CARD[0].NUMBER === 0 ? 'no-card' : 'has-card' ">
+                        {{ card.CARD[0].NUMBER }}
+                    </td>
+                }
+
+                @if (card.CARD.length > 1) {
+                    <td [class]="card.CARD[0].PRIORITY == 1 ? 'normal' : card.CARD[0].PRIORITY == 2 ? 'high' : ''">
+                        <span class="radio"> 
+                            <p-radioButton  name="priority" value="0" [(ngModel)]="card.CARD[0].PRIORITY"  inputId="ingredient2" />
+                            <p-radioButton  name="priority" value="1" [(ngModel)]="card.CARD[0].PRIORITY"  inputId="ingredient2" />
+                            <p-radioButton  name="priority" value="2" [(ngModel)]="card.CARD[0].PRIORITY"  inputId="ingredient2" />
+                            {{ card.CARD[0].PRIORITY }}
+                        </span>
+                    </td>
+                    <td [class]="card.CARD[1].PRIORITY == 1 ? 'normal' : card.CARD[1].PRIORITY == 2 ? 'high' : ''">
+                        <span class="radio"> 
+                            <p-radioButton  name="priority" value="0" [(ngModel)]="card.CARD[1].PRIORITY"  inputId="ingredient2" />
+                            <p-radioButton  name="priority" value="1" [(ngModel)]="card.CARD[1].PRIORITY"  inputId="ingredient2" />
+                            <p-radioButton  name="priority" value="2" [(ngModel)]="card.CARD[1].PRIORITY"  inputId="ingredient2" />
+                            {{ card.CARD[1].PRIORITY }}
+                        </span>
+                    </td>
+                } @else {
+                    <td class="no-card-exist">
+                       
+                    </td>
+                    <td [class]="card.CARD[0].PRIORITY == 1 ? 'normal' : card.CARD[0].PRIORITY == 2 ? 'high' : ''">
+                        <span class="radio"> 
+                            <p-radioButton  name="priority" value="0" [(ngModel)]="card.CARD[0].PRIORITY"  inputId="ingredient2" />
+                            <p-radioButton  name="priority" value="1" [(ngModel)]="card.CARD[0].PRIORITY"  inputId="ingredient2" />
+                            <p-radioButton  name="priority" value="2" [(ngModel)]="card.CARD[0].PRIORITY"  inputId="ingredient2" />
+                            {{ card.CARD[0].PRIORITY }}
+                        </span>
+                    </td>
+                }
+                
             </tr>
              } @empty {
                  <li>There are no items.</li>

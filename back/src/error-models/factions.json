@@ -1,0 +1,69 @@
+{
+    "CREATE": {
+        "CANNOT_ADD": {
+            "message": "Cannot add Faction",
+            "code": 400,
+            "description": "The Faction you are trying to add cannot be added"
+        },
+        "ALREADY_EXISTS": {
+            "message": "Faction already exists",
+            "code": 400,
+            "description": "The Faction you are trying to add already exists"
+        }
+    },
+    "READ": {
+        "NOT_FOUND": {
+            "single": {
+                "message": "Faction not found",
+                "code": 404,
+                "description": "The Faction you are looking for does not exist"
+            },
+            "multiple": {
+                "message": "Factions not found",
+                "code": 404,
+                "description": "The Factions you are looking for do not exist"
+            }
+        },
+        "NOT_REACHABLE": {
+            "message": "Faction not reachable",
+            "code": 500,
+            "description": "The Factions you are looking for is not reachable"
+        },
+        "PERMISSION_DENIED": {
+            "message": "Permission denied",
+            "code": 403,
+            "description": "You do not have permission to access generations"
+        }
+    },
+    "UPDATE": {
+        "CANNOT_UPDATE": {
+            "message": "Cannot update Faction",
+            "code": 400,
+            "description": "The Faction you are trying to update cannot be updated"
+        },
+        "PERMISSION_DENIED": {
+            "message": "Permission denied",
+            "code": 403,
+            "description": "You do not have permission to update generations"
+        }
+    },
+    "DELETE": {
+        "CANNOT_DELETE": {
+            "message": "Cannot delete Faction",
+            "code": 400,
+            "description": "The generation you are trying to delete cannot be deleted"
+        },
+        "PERMISSION_DENIED": {
+            "message": "Permission denied",
+            "code": 403,
+            "description": "You do not have permission to delete generations"
+        }
+    },
+    "MISC": {
+        "WENT_WRONG": {
+            "message": "Something went wrong",
+            "code": 500,
+            "description": "Something went wrong while processing your request"
+        }
+    }
+}

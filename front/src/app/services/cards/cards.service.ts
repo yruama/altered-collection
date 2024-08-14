@@ -11,7 +11,7 @@ import { environment } from "src/environments/environment";
 export class CardsService {
 	constructor(private readonly _http: HttpClient) {}
 
-	getCards(offset: number = 0, limit: number = 100, max?: number): Observable<APIResult> {
+	getCards(offset: number = 0, limit: number = 1050, max?: number): Observable<APIResult> {
 		const language = navigator.language || 'en';
 
 		const headers = new HttpHeaders({
@@ -24,5 +24,16 @@ export class CardsService {
 
 	getCardsByName(name: string): Observable<APIResult> {
 		return this._http.get<APIResult>(`${environment.cardsdexUrl}/fr/cards?name=${name}`);
+	}
+
+	getCardsWithFilter(filter: any): Observable<APIResult> {
+		const language = navigator.language || 'en';
+
+		const headers = new HttpHeaders({
+			'Accept-Language': language,
+			"Content-Type": "application/json"
+		});
+
+		return this._http.post<APIResult>(`${environment.apiURL}/cards`, { filter }, { headers });
 	}
 }
