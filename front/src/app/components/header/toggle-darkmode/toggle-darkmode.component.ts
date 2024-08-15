@@ -15,7 +15,7 @@ export class ToggleDarkmodeComponent {
 
 		this.GlobalService.isDarkMode = !this.GlobalService.isDarkMode;
 		localStorage.setItem("darkmode", String(this.GlobalService.isDarkMode));
-		this.GlobalService.theme = this.GlobalService.theme === "arya-orange" ? "saga-orange" : "arya-orange";
+		this.GlobalService.theme = this.GlobalService.theme === "light-theme" ? "dark-theme" : "light-theme";
 		this.ThemeService.switchTheme(this.GlobalService.theme);
 	}
 }

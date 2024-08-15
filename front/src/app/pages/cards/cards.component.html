@@ -1,3 +1,4 @@
+<app-filter></app-filter>>
 Liste cartes : <br>
 
 <div class="cards">
@@ -11,12 +12,12 @@ Liste cartes : <br>
 
 <div class="footer">
 
-    <p-button
+    <!-- <p-button
         class="mt-3 footer__load-more"
         [loading]="buttonLoading"
         label="{{ 'GENERAL.load_more' | translate }}"
         (click)="loadMore()"
-    ></p-button>
+    ></p-button> -->
 
     <div class="footer__pagination">
         {{ filter.pagination.offset + 1 }} - {{ (filter.pagination.offset + filter.pagination.limit) < filter.pagination.max ? (filter.pagination.offset + filter.pagination.limit) : filter.pagination.max }} <span class="pagination__total">{{ 'GENERAL.on' | translate }} {{ filter.pagination.max }}</span>

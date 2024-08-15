@@ -1,1 +1,85 @@
-<p>filter works!</p>
+<p-panel #myPanel [header]="'filter' | translate" [toggleable]="true" [(collapsed)]="isCollapsed">
+    <div *ngIf="factionData.data.length > 0">
+       <h3>{{ factionData.title }} </h3>
+        @for (faction of factionData.data; track faction.ID) {
+            <span class="element" (click)="clickOnElement(faction)">
+                <p-chip
+                    [class]="faction.isActive ? 'is-active' : ''"
+                    [label]="faction.NAME" 
+                    [image]="env.assetsURL + '/factions/' + faction.ID + '.webp'"  />
+            </span>
+          } @empty {
+              <li>There are no items.</li>
+          }
+    </div>
+
+    <div *ngIf="typeData.data.length > 0">
+        <h3>{{ typeData.title }} </h3>
+         @for (faction of typeData.data; track faction.ID) {
+             <span class="element" (click)="clickOnElement(faction)">
+                 <p-chip
+                     [class]="faction.isActive ? 'is-active' : ''"
+                     [label]="faction.NAME" />
+             </span>
+           } @empty {
+               <li>There are no items.</li>
+           }
+     </div>
+
+     <div *ngIf="rarityData.data.length > 0">
+        <h3>{{ rarityData.title }} </h3>
+         @for (faction of rarityData.data; track faction.ID) {
+             <span class="element" (click)="clickOnElement(faction)">
+                 <p-chip
+                     [class]="faction.isActive ? 'is-active' : ''"
+                     [label]="faction.NAME" />
+             </span>
+           } @empty {
+               <li>There are no items.</li>
+           }
+     </div>
+
+     <!-- <div *ngIf="subTypeData.data.length > 0">
+        <h3>{{ subTypeData.title }} </h3>
+        <div class="elements">
+            @for (faction of subTypeData.data; track faction.ID) {
+                <div class="element" (click)="clickOnElement(faction)">
+                    <p-chip
+                        [class]="faction.isActive ? 'is-active' : ''"
+                        [label]="faction.NAME" />
+                </div>
+            } @empty {
+                <li>There are no items.</li>
+            }
+        </div>
+     </div> -->
+
+    <div class="subType">
+        <h3>Sous type</h3>
+        <p-multiSelect 
+            [options]="subTypeData.data" 
+            [(ngModel)]="subTypeValue" 
+            optionLabel="NAME"
+            [maxSelectedLabels]="1"
+            placeholder="Select sub type"/>
+    </div>
+
+    <div class="elements">
+        @for (faction of subTypeValue; track faction.ID) {
+            <div class="element">
+                <p-chip
+                    [class]="faction.isActive ? 'is-active' : ''"
+                    [label]="faction.NAME" />
+            </div>
+        }
+    </div>
+     
+
+    <div class="footer">
+        <app-button (click)="applyFilter()">
+            {{ 'apply_filter' | translate }}
+        </app-button>
+    </div>
+    
+    
+</p-panel>

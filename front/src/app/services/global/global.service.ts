@@ -1,7 +1,7 @@
-import { Injectable } from "@angular/core";
-import { environment } from "src/environments/environment";
 import { BehaviorSubject } from 'rxjs';
+import { Injectable } from "@angular/core";
 import { Router } from "@angular/router";
+import { environment } from "src/environments/environment";
 
 @Injectable({
 	providedIn: "root"
@@ -11,7 +11,7 @@ export class GlobalService {
 	assetsURL = environment.assetsURL;
 
 	appLoading = false;
-	theme = "arya-orange";
+	theme = "light-theme";
 	isDarkMode = true;
 
 	private userConnected = new BehaviorSubject<boolean>(localStorage.getItem('token') ? true : false);

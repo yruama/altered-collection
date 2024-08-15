@@ -1,0 +1,39 @@
+.title {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.element {
+    margin-right: 16px;
+    margin-bottom: 8px;
+}
+
+.element:hover {
+    cursor: pointer;
+}
+
+.elements {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+::ng-deep p-chip.is-active {
+    .p-chip {
+        background: var(--tag-selected);
+        font-weight: bold;
+    }
+}
+
+.footer {
+    text-align: right;
+}
+
+.subType {
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+::ng-deep .p-multiselect-label-container {
+    width: 500px;
+}

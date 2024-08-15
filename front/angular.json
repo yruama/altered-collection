@@ -29,63 +29,13 @@
 							"node_modules/primeflex/primeflex.min.css",
 							"node_modules/flag-icons/css/flag-icons.min.css",
 							{
-								"input": "src/styles/themes/saga-blue.scss",
-								"bundleName": "saga-blue",
+								"input": "src/styles/themes/dark-theme/dark-theme.scss",
+								"bundleName": "dark-theme",
 								"inject": false
 							},
 							{
-								"input": "src/styles/themes/saga-green.scss",
-								"bundleName": "saga-green",
-								"inject": false
-							},
-							{
-								"input": "src/styles/themes/saga-orange.scss",
-								"bundleName": "saga-orange",
-								"inject": false
-							},
-							{
-								"input": "src/styles/themes/saga-purple.scss",
-								"bundleName": "saga-purple",
-								"inject": false
-							},
-							{
-								"input": "src/styles/themes/vela-blue.scss",
-								"bundleName": "vela-blue",
-								"inject": false
-							},
-							{
-								"input": "src/styles/themes/vela-green.scss",
-								"bundleName": "vela-green",
-								"inject": false
-							},
-							{
-								"input": "src/styles/themes/vela-orange.scss",
-								"bundleName": "vela-orange",
-								"inject": false
-							},
-							{
-								"input": "src/styles/themes/vela-purple.scss",
-								"bundleName": "vela-purple",
-								"inject": false
-							},
-							{
-								"input": "src/styles/themes/arya-blue.scss",
-								"bundleName": "arya-blue",
-								"inject": false
-							},
-							{
-								"input": "src/styles/themes/arya-green.scss",
-								"bundleName": "arya-green",
-								"inject": false
-							},
-							{
-								"input": "src/styles/themes/arya-orange.scss",
-								"bundleName": "arya-orange",
-								"inject": false
-							},
-							{
-								"input": "src/styles/themes/arya-purple.scss",
-								"bundleName": "arya-purple",
+								"input": "src/styles/themes/light-theme/light-theme.scss",
+								"bundleName": "light-theme",
 								"inject": false
 							},
 							"src/styles.scss",

@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 import { GenerationService } from 'src/app/services/generation/generation.service';
 import { Pokemon } from 'src/app/types/pokemons.types';
 import { PokemonService } from 'src/app/services/pokemon/pokemon.service';
-import { TypeService } from 'src/app/services/type/type.service';
+import { TypeService } from 'src/app/services/types/type.service';
 import { environment } from 'src/environments/environment';
 
 @Component({

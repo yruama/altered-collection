@@ -7,12 +7,14 @@ import { DOCUMENT } from '@angular/common';
 export class ThemeService {
 	constructor(@Inject(DOCUMENT) private readonly _document: Document) { }
 
-	themes = ['arya-orange', "saga-orange"]
+	themes = ['light-theme', "dark-theme"]
 
 	switchTheme(theme: string) {
 		const themeLink = this._document.getElementById('app-theme') as HTMLLinkElement;
 
-		if (!this.verificationTheme(theme)) theme = "arya-orange";
+		console.log("themeLink : ", themeLink)
+
+		if (!this.verificationTheme(theme)) theme = "light-theme";
 
 		if (themeLink) {
 			localStorage.setItem("theme", theme);
