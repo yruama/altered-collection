@@ -1,3 +1,12 @@
+<div>
+    <p-inputGroup>
+        <input type="text" [(ngModel)]="search" pInputText placeholder="Recherche de cartes..." />
+        <p-inputGroupAddon (click)="sendFilter()"><i class="fa-solid fa-magnifying-glass"></i></p-inputGroupAddon>
+    </p-inputGroup>
+</div>
+
+<br>
+
 <p-panel #myPanel [header]="'filter' | translate" [toggleable]="true" [(collapsed)]="isCollapsed">
     <div *ngIf="factionData.data.length > 0">
        <h3>{{ factionData.title }} </h3>
@@ -76,7 +85,7 @@
      
 
     <div class="footer">
-        <app-button (click)="applyFilter()">
+        <app-button (click)="sendFilter()">
             {{ 'apply_filter' | translate }}
         </app-button>
     </div>

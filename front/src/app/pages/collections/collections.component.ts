@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 import { CardsService } from 'src/app/services/cards/cards.service';
 import { CollectionsService } from 'src/app/services/collections/collections.service';
+import { Filter } from 'src/app/types/filter.types';
 import { environment } from 'src/environments/environment';
 
 interface CardCollection {
@@ -21,77 +22,92 @@ export class CollectionsComponent implements OnInit {
   env = environment;
 
   myCollections: any;
-  allCards: any;
-  cards: any;
-  finalCards: CardCollection[] = [];
-
-  filter = {
+  cards: any = [];
+  filter: Filter = {
     pagination: {
       offset: 0,
-      limit: 200
-    },
-    faction: [5],
-    rarity: []
+      limit: 25,
+      max: 1040
+    }
   }
+
+  imageHover = '';
+
+  showCommon = false;
+  limitToGet = 3;
+  showOnlyMissing = false;
+
   
-  //   this._collectionService.getOwnCollections().subscribe({
-
   ngOnInit(): void {
-    this.getAllCards();
+    // this._collectionService.getOwnCollections().subscribe({
+    //   next: (data: any) => {
+    //     console.log("getMyCollectionsT : ", data)
+    //     this.myCollections = data;
+    //   }, error: (err) => {
+    //     console.log('err : ', err)
+    //   }, complete: () => {
+        
+    //   }
+    // });
+    // return;
+
+    this.getMyCollections();
   }
 
-  finalCardsSetup() {
-    for (const card of this.cards) {
 
+  mergeData(cards: any) {
+    const allCards = cards.map((a: any) => {
+        const matchingB = this.myCollections.find((b: any) => b.ID === a.ID);
+        return matchingB ? { ...a, NUMBER: matchingB.NUMBER } : { ...a, NUMBER: 0 };
+    });
+
+    const finalCards: any[] = []
+
+    for (const card of allCards) {
       try {
-        console.log("CARD : ", card, " ===> ", (/(?<=BTG-)\d{3}(?=-[FCRH]-FR)/g.exec(card.FORMATED_ID)));
         const no = (/(?<=BTG-)\d{3}(?=-[FCRH]-FR)/g.exec(card.FORMATED_ID))![0]
-      //  const rarity = (/BTG-\d{3}-([FCRH])-FR/g.exec(card.FORMATED_ID))![1]
-      
-        const checkIfExist = this.finalCards.find((c: any) => c.NO_CARD == no);
 
-
+        const checkIfExist = finalCards.find((c: any) => c.NO_CARD == no);
 
         if (!checkIfExist) {
-          this.finalCards.push({
+          finalCards.push({
             NO_CARD: no,
             CARD: [{
               NAME: card.NAME,
               NUMBER: card.NUMBER,
               PRIORITY: 0,
-              FACTION: card.FACTION
+              FACTION: card.FACTION,
+              RARITY: card.RARITY,
+              IMAGE: card.IMAGE,
+              BG: `${this.env.assetsURL}/factions/${card.FACTION}.webp`
             }]
           })
         } else {
-          const c = this.finalCards.find((a: any) => a.NO_CARD === no)
+          const c = finalCards.find((a: any) => a.NO_CARD === no)
           c?.CARD.push({
             NAME: card.NAME,
             NUMBER: card.NUMBER,
             PRIORITY: 0,
-            FACTION: card.FACTION
+            FACTION: card.FACTION,
+            RARITY: card.RARITY,
+            IMAGE: card.IMAGE,
+            BG: `${this.env.assetsURL}/factions/${card.FACTION}.webp`
           });
         }
       } catch (error) {
         
       }
-
-        
-      
-      
     }
 
-    this.finalCards.sort((a: any, b: any) => a.NO_CARD.localeCompare(b.NO_CARD))
+    finalCards.sort((a: any, b: any) => a.NO_CARD.localeCompare(b.NO_CARD))
 
-    console.log("FINAL : ", this.finalCards);
-  }
+    console.log("FINALCARD : ", finalCards)
 
-  mergeData() {
-    this.cards = this.allCards.map((a: any) => {
-        const matchingB = this.myCollections.find((b: any) => b.ID === a.ID);
-        return matchingB ? { ...a, NUMBER: matchingB.NUMBER } : { ...a, NUMBER: 0 };
-    });
+    for (const card of finalCards) {
+      if (card) card.CARD = this.customSort(card.CARD);
+    }
 
-    this.finalCardsSetup();
+    return finalCards;
   }
 
   getMyCollections() {
@@ -102,70 +118,101 @@ export class CollectionsComponent implements OnInit {
       }, error: (err) => {
         console.log('err : ', err)
       }, complete: () => {
-        this.mergeData();
+        this.getCards();
       }
     })
   }
 
-  getAllCards() {
+
+  // generateDoc(): void {
+
+  //   const lines: string[] = [];
+
+  //   for (const card of finalCards) {
+  //     if (card.CARD.length === 1 && (3 - card.CARD[0].NUMBER) > 0)
+  //       lines.push(`${3 - card.CARD[0].NUMBER}x :YZMIR: ${card.CARD[0].NAME }`)
+  //     else if (card.CARD.length === 2 && (3 - card.CARD[1].NUMBER) > 0) {
+  //       lines.push(`${3 - card.CARD[1].NUMBER}x :YZMIR: ${card.CARD[1].NAME }`)
+  //     }
+  //   }
+    
+  //   const blob = new Blob([lines.join('\n')], { type: 'text/plain;charset=utf-8;' });
+  //   const link = document.createElement('a');
+  //   const url = URL.createObjectURL(blob);
+
+  //   link.setAttribute('href', url);
+  //   link.setAttribute('download', `Yzmir.txt`);
+  //   link.style.visibility = 'hidden';
+
+  //   document.body.appendChild(link);
+  //   link.click();
+  //   document.body.removeChild(link);
+  // }
+
+  getCards() {
+    this.filter.pagination.limit = this.filter.pagination.limit == 25 ? 75 : this.filter.pagination.limit;
     this._cardsService.getCardsWithFilter(this.filter).subscribe({
       next: (data: any) => {
-        console.log("getAllCards : ", data)
-
-        data = data.map((item: any) => {
-          return {
-            ...item, // on garde les autres champs inchangés
-            IMAGE: item.IMAGE.replace(/^\"|\"$/g, ''), // remplace les guillemets en début et fin
-          };
-        });
-
-        data = data.filter((item: any) => !item.ID.includes('NE'))
-
-        this.allCards = data;
+        console.log("DATA : ", data)
+        const cardsToAdd = this.mergeData(data.data)
+        this.cards = [... this.cards, ...cardsToAdd];
+        this.filter.pagination.max = data.total;
+        console.log("getCards : ", this.cards)
       }, error: (err) => {
-        console.log('err : ', err)
+        console.log('getCards err : ', err)
       }, complete: () => {
-        this.getMyCollections();
       }
     })
   }
 
-  generateDocOld() {
-    this._collectionService.generateList().subscribe({
-      next: (data: any) => {
-      
-      }, error: (err) => {
-        console.log('err : ', err)
-      }, complete: () => {
-        console.log('complete : ')
-      }
-    })
+  applyFilter(filter: any) {
+    console.log("Filter : ", filter);
+    this.cards = [];
+    this.filter = filter;
+    this.getCards();
   }
 
+  customSort(cards: any[]) {
+    //On récupère la CARD commune (0)
+    const common = cards.find((c: any) => c.RARITY == 0);
+    // On cherche la CARD rare de la même faction
+    const rare = cards.find((c: any) => c.RARITY == 1 && c.FACTION == common.FACTION);
+    const transfuge = cards.find((c: any) => c.RARITY == 1 && c.FACTION != common.FACTION);
 
-  generateDoc(): void {
+    return [common, rare, transfuge];
 
-    const lines: string[] = [];
+  }
 
-    for (const card of this.finalCards) {
-      if (card.CARD.length === 1 && (3 - card.CARD[0].NUMBER) > 0)
-        lines.push(`${3 - card.CARD[0].NUMBER}x :YZMIR: ${card.CARD[0].NAME }`)
-      else if (card.CARD.length === 2 && (3 - card.CARD[1].NUMBER) > 0) {
-        lines.push(`${3 - card.CARD[1].NUMBER}x :YZMIR: ${card.CARD[1].NAME }`)
-      }
+  hoveredImage(card: any) {
+    this.imageHover = card.IMAGE.fr;
+  }
+
+  setPagination(offset: number, limit: number, max: number) {
+    this.filter.pagination = {
+      offset: offset,
+      limit: limit,
+      max: max
     }
-    
-    const blob = new Blob([lines.join('\n')], { type: 'text/plain;charset=utf-8;' });
-    const link = document.createElement('a');
-    const url = URL.createObjectURL(blob);
 
-    link.setAttribute('href', url);
-    link.setAttribute('download', `Yzmir.txt`);
-    link.style.visibility = 'hidden';
-
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+    this.getCards();
+  }
+  
+  loadMore() {
+    this.setPagination(this.filter.pagination.offset + 75, this.filter.pagination.limit, this.filter.pagination.max);
   }
 
 }
+
+
+
+    // this._collectionService.getOwnCollections().subscribe({
+    //   next: (data: any) => {
+    //     console.log("getMyCollectionsT : ", data)
+    //     this.myCollections = data;
+    //   }, error: (err) => {
+    //     console.log('err : ', err)
+    //   }, complete: () => {
+    //     this.mergeData();
+    //   }
+    // });
+    // return;

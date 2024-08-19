@@ -1,76 +1,72 @@
-<button (click)="generateDoc()">générer document</button>
+<app-filter (applyFilter)="applyFilter($event)"></app-filter>
 
-<table>
-    <thead>
-        <tr>
-            <th scope="col">Faction</th>
-            <th scope="col">Nom</th>
-            <th scope="col" colspan="2">Rareté <br> C / R|T</th>
-            <th scope="col" colspan="2">Priorité <br> C / R|T</th>
-            <!-- <th>img</th> -->
-        </tr>
-      </thead>
-      <tbody>
-        
-            @for (card of finalCards; track card.NO_CARD) {
+<!-- <button (click)="generateDoc()">générer document</button> -->
+
+<div class="sub-filter">
+    <div class="switch">
+        <span>Afficher les communes ? </span>
+        <p-inputSwitch [(ngModel)]="showCommon" />
+    </div>
+    
+
+    <div class="number">
+        Combien pour valider la collection : 
+        <p-inputNumber 
+        [(ngModel)]="limitToGet" /> 
+    </div>
+
+    <div class="switch">
+        <span>Afficher que ce qu'il manque ? </span>
+        <p-inputSwitch [(ngModel)]="showOnlyMissing" />
+    </div>
+  
+</div>
+
+
+<div class="collection-content">
+    <div class="table">
+        <table>
+            
             <tr>
-                <td style="text-align: center;">
-                    <img style="max-width: 25px;" [src]="env.assetsURL + '/factions/' + card.CARD[0].FACTION + '.webp'" alt="">
-                </td>
-                <td>
-                    {{ card.CARD[0].NAME }} 
-                </td>
-
-                @if (card.CARD.length > 1) {
-                    <td [class]="card.CARD[0].NUMBER >= 3 ? 'all-card' : card.CARD[0].NUMBER === 0 ? 'no-card' : 'has-card' ">
-                        {{ card.CARD[0].NUMBER }}
-                    </td>
-                    <td [class]="card.CARD[1].NUMBER >= 3 ? 'all-card' : card.CARD[1].NUMBER === 0 ? 'no-card' : 'has-card' ">
-                        {{ card.CARD[1].NUMBER }}
-                    </td>
-                } @else {
-                    <td class="no-card-exist">
-                       
-                    </td>
-                    <td [class]="card.CARD[0].NUMBER >= 3 ? 'all-card' : card.CARD[0].NUMBER === 0 ? 'no-card' : 'has-card' ">
-                        {{ card.CARD[0].NUMBER }}
-                    </td>
-                }
-
-                @if (card.CARD.length > 1) {
-                    <td [class]="card.CARD[0].PRIORITY == 1 ? 'normal' : card.CARD[0].PRIORITY == 2 ? 'high' : ''">
-                        <span class="radio"> 
-                            <p-radioButton  name="priority" value="0" [(ngModel)]="card.CARD[0].PRIORITY"  inputId="ingredient2" />
-                            <p-radioButton  name="priority" value="1" [(ngModel)]="card.CARD[0].PRIORITY"  inputId="ingredient2" />
-                            <p-radioButton  name="priority" value="2" [(ngModel)]="card.CARD[0].PRIORITY"  inputId="ingredient2" />
-                            {{ card.CARD[0].PRIORITY }}
-                        </span>
-                    </td>
-                    <td [class]="card.CARD[1].PRIORITY == 1 ? 'normal' : card.CARD[1].PRIORITY == 2 ? 'high' : ''">
-                        <span class="radio"> 
-                            <p-radioButton  name="priority" value="0" [(ngModel)]="card.CARD[1].PRIORITY"  inputId="ingredient2" />
-                            <p-radioButton  name="priority" value="1" [(ngModel)]="card.CARD[1].PRIORITY"  inputId="ingredient2" />
-                            <p-radioButton  name="priority" value="2" [(ngModel)]="card.CARD[1].PRIORITY"  inputId="ingredient2" />
-                            {{ card.CARD[1].PRIORITY }}
-                        </span>
-                    </td>
-                } @else {
-                    <td class="no-card-exist">
-                       
-                    </td>
-                    <td [class]="card.CARD[0].PRIORITY == 1 ? 'normal' : card.CARD[0].PRIORITY == 2 ? 'high' : ''">
-                        <span class="radio"> 
-                            <p-radioButton  name="priority" value="0" [(ngModel)]="card.CARD[0].PRIORITY"  inputId="ingredient2" />
-                            <p-radioButton  name="priority" value="1" [(ngModel)]="card.CARD[0].PRIORITY"  inputId="ingredient2" />
-                            <p-radioButton  name="priority" value="2" [(ngModel)]="card.CARD[0].PRIORITY"  inputId="ingredient2" />
-                            {{ card.CARD[0].PRIORITY }}
-                        </span>
-                    </td>
-                }
-                
+                <th rowspan="2">No</th>
+                <th rowspan="2">Name</th>
+                <th [attr.colspan]="showCommon ? 3 : 2"> Quantity </th>
             </tr>
-             } @empty {
-                 <li>There are no items.</li>
-             }
-    </tbody>
-</table>
+            <tr>
+                <td *ngIf="showCommon">Commune</td>
+                <td>Rare</td>
+                <td>Transfuge</td>
+            </tr>
+     
+            @for (card of cards; track card.NO_CARD) {
+                <tr *ngIf="card.CARD[1] || showCommon">
+                    <td>{{ card.NO_CARD }} </td>
+                    <td>{{ card.CARD[0].NAME.fr }}</td>
+                    <td [class]="limitToGet <= card.CARD[0]?.NUMBER ? 'canTrade' : ''" *ngIf="showCommon" (mouseover)="hoveredImage(card.CARD[0])"> {{ card.CARD[0].NUMBER }} </td>
+                    <td [class]="limitToGet <= card.CARD[1]?.NUMBER ? 'canTrade' : ''" (mouseover)="hoveredImage(card.CARD[1])"> {{ card.CARD[1]?.NUMBER }} </td>
+                    <td class="transfuge"
+                        (mouseover)="hoveredImage(card.CARD[2])"
+                        [ngClass]="limitToGet <= card.CARD[2]?.NUMBER ? 'canTrade' : ''"
+                        [ngStyle]="{ background: 'url(' + (card.CARD[2]?.BG || '') + ')' }"> 
+                            {{ card.CARD[2]?.NUMBER }} 
+                        <!-- <p-avatar *ngIf="card.CARD[2]"
+                            [image]="env.assetsURL + '/factions/' + card.CARD[2]?.FACTION + '.webp'" 
+                            styleClass="mr-2" 
+                            shape="circle" /> -->
+                         </td>
+                </tr>
+            }
+        </table>
+    </div>
+        
+    <div class="image">
+        <img [src]="imageHover" alt="">
+    </div>
+    
+</div>
+
+
+<br>
+
+<app-button (click)="loadMore()"> Charger plus </app-button>
+

@@ -34,3 +34,71 @@ td, th {
 .high {
     background-color: red;
 }
+
+.table {
+    display: block;
+   text-align: left;
+   width: 50%;
+   min-width: 50%;
+   height: calc(100vh - 70px - 140px - 60px - 65px);
+    overflow-y: scroll;
+}
+
+.image {
+    margin: auto;
+}
+
+.collection-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    img {
+        max-height: calc(100vh - 70px - 140px - 60px - 65px);
+        max-width: 100%;
+    }
+}
+
+table {
+    width: 100%;
+
+    td {
+        padding: 0;
+        text-align: center;
+    }
+}
+
+.sub-filter {
+    display: flex;
+    margin: 12px 0;
+    align-items: center
+}
+
+.switch {
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+
+    span {
+        margin-right: 8px;
+    }
+}
+
+.number {
+    margin-right: 2rem;
+}
+
+::ng-deep p-avatar {
+    float: right;
+}
+
+.transfuge {
+    background-repeat: no-repeat !important; /* Assure que l'image ne se répète pas */
+    background-position: right center !important; /* Aligne l'image à droite et centre verticalement */
+    background-size: contain !important; /* Ajuste la taille de l'image pour couvrir l'élément */
+}
+
+.canTrade {
+    background-color: red !important;
+    z-index: 99;
+}

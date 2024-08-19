@@ -2,6 +2,7 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 
 import { Cards } from 'src/app/types/cards.types';
 import { CardsService } from 'src/app/services/cards/cards.service';
+import { Filter } from 'src/app/types/filter.types';
 import { Pokemon } from 'src/app/types/pokemons.types';
 import { PokemonService } from 'src/app/services/pokemon/pokemon.service';
 import { environment } from 'src/environments/environment';
@@ -23,14 +24,12 @@ export class CardsComponent implements OnInit {
 
   buttonLoading = false;
 
-  filter = {
+  filter: Filter = {
     pagination: {
       offset: 0,
-      limit: 200,
+      limit: 25,
       max: 1040
-    },
-    faction: [],
-    rarity: []
+    }
   }
 
 
@@ -38,13 +37,14 @@ export class CardsComponent implements OnInit {
               private _cardService: CardsService) {}
 
   ngOnInit() {
-    this.setPagination(0, 50, 1041);
+    this.setPagination(0, 25, 1041);
   }
 
   getCards() {
     this._cardService.getCardsWithFilter(this.filter).subscribe({
       next: (data: any) => {
-        this.cards = [... this.cards, ...data];
+        this.cards = [... this.cards, ...data.data];
+        this.filter.pagination.max = data.total;
         console.log("getCards : ", this.cards)
       }, error: (err) => {
         console.log('getCards err : ', err)
@@ -71,4 +71,12 @@ export class CardsComponent implements OnInit {
     this.getCards();
   }
 
+  applyFilter(filter: any) {
+    console.log("Filter : ", filter);
+    this.cards = [];
+    this.filter = filter;
+    this.getCards();
+  }
+
 }
+

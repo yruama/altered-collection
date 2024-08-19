@@ -1,5 +1,5 @@
-<app-filter></app-filter>>
-Liste cartes : <br>
+<app-filter (applyFilter)="applyFilter($event)"></app-filter>
+Liste cartes : ({{ cards.length }})<br>
 
 <div class="cards">
     @for (card of cards; track card.UUID) {

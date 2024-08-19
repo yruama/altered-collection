@@ -37,8 +37,8 @@ async function start() {
                 ID: cardData.id,
                 FORMATED_ID: cardData.collectorNumberFormatted.fr,
                 NO: getNumberCard(cardData.collectorNumberFormatted.fr),
-                TYPE: cardData.type,
-                SUB_TYPE: JSON.stringify(await getCardSubType(cardData.subtypes)),
+                TYPE: await TransformTypeToNumber(cardData.type),
+                SUB_TYPE: (await getCardSubType(cardData.subtypes)).join(','),
                 ASSETS: JSON.stringify(cardData.assets.WEB),
                 FACTION: TransformFactionToNumber(cardData.mainFaction),
                 RARITY: TransformRarityToNumber(cardData.rarity),
@@ -47,6 +47,8 @@ async function start() {
                 ELEMENTS: JSON.stringify(cardData.elements),
                 EXTENSION: cardData.id.includes('KS') ? 0 : 1
             }
+
+            console.log("CARD : ", card)
 
             coreCards.add(card);
         }
@@ -231,6 +233,24 @@ function TransformFactionToNumber(faction: string) {
             break; 
          } 
     }
+}
+
+async function TransformTypeToNumber(type: string) {
+    if (type === 'TOKEN') return 4
+    else if (type === 'TOKEN_MANA') return 3
+    else {
+        const coreType = new CoreTypes();
+
+        const types = await coreType.getAll();
+        console.log("TYPE : ", type)
+        console.log("TYPES : ", types)
+        const t = types.find((item: any) => item.NAME_EN.toLowerCase() == type.toLocaleLowerCase());
+        
+        console.log("TTTT : ", t)
+    
+        return t.ID;
+    }
+    
 }
 
 export default start;
